@@ -32,35 +32,16 @@ function ContactUs() {
                                         <img src="assets/images/contact/shape/01.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>Call Us 24/7</span>
-                                        <Link to={'tel:+18475555555'}>
-                                            <h5>+584 (25) 21453</h5>
+                                        <span>Call Us 24/7</span><br />
+                                        <Link to={'tel:+91 92055 44540'}>
+                                            <h7><b>+91 92055 44540</b></h7><br />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         {/* single contact area end */}
-                        {/* single contact area */}
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="single-contact-one-inner">
-                                <div className="thumbnail">
-                                    <img src="assets/images/contact/02.png" alt="" />
-                                </div>
-                                <div className="content">
-                                    <div className="icone">
-                                        <img src="assets/images/contact/shape/02.svg" alt="" />
-                                    </div>
-                                    <div className="info">
-                                        <span>MAke A Quote</span>
-                                        <Link to={'mailto:someone@example.com'}>
-                                            <h5>Office@ldrgroups.com</h5>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* single contact area end */}
+                       
                         {/* single contact area */}
                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="single-contact-one-inner">
@@ -72,9 +53,29 @@ function ContactUs() {
                                         <img src="assets/images/contact/shape/03.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>Service Station</span>
+                                        <span>Walk In</span><br />
                                         <Link to={'#'}>
-                                            <h5>25 Hilton Street.</h5>
+                                        <h8><b>7th Floor, Office No. 74D, Himalaya House KG Marg Area, ND - 110001</b></h8>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* single contact area end */}
+                         {/* single contact area */}
+                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="single-contact-one-inner">
+                                <div className="thumbnail">
+                                    <img src="assets/images/contact/02.png" alt="" />
+                                </div>
+                                <div className="content">
+                                    <div className="icone">
+                                        <img src="assets/images/contact/shape/02.svg" alt="" />
+                                    </div>
+                                    <div className="info">
+                                        <span>MAke A Quote</span><br />
+                                        <Link to={'mailto:someone@example.com'}>
+                                            <h7><b>Office@ldrgroups.com</b></h7>
                                         </Link>
                                     </div>
                                 </div>
@@ -93,7 +94,7 @@ function ContactUs() {
                             <div className="contact-map-area-fluid">
                                 <iframe
                                     className="contact-map"
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.055021879864!2d77.2215868!3d28.628113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd09dccf044f%3A0x527a2d401853b004!2sHimalaya%20house%20Cp!5e0!3m2!1sen!2sin!4v1740731893913!5m2!1sen!2sin"
                                     style={{ border: 0 }}
                                     allowFullScreen=""
                                     loading="lazy"
@@ -101,7 +102,7 @@ function ContactUs() {
                                 />
                                 <img
                                     className="location"
-                                    src="assets/images/contact/shape/location.svg"
+                                    src=""
                                     alt="Business_map"
                                 />
                             </div>
