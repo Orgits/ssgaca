@@ -5,7 +5,7 @@ function Nav() {
         <div>
             <nav className="nav-main mainmenu-nav d-none d-xl-block">
                 <ul className="mainmenu">
-                <li><Link className="nav-item" to={'/contactus'}>
+                <li><Link className="nav-item" to={'/'}>
                             Home
                         </Link>
                         </li>
