@@ -56,7 +56,7 @@
   --color-primary: #145886;
   --color-primary-2: #0B4DF5;
   --color-primary-3: #F64A00;
-  --color-primary-4: #5264F3;
+  --color-primary-4: #145886;
   --color-primary-5: #B00F0F;
   --color-primary-6: #F64A00;
   --color-primary-7: #E87556;
@@ -32231,7 +32231,7 @@ p.disc {
   color: #fff;
 }
 .working-process-area2 .container .rts-working-process-1 .inner {
-  border-color: #5264f330;
+  border-color: #14588630;
 }
 .working-process-area2 .container .rts-working-process-1 .inner::after {
   background: var(--color-primary-4);

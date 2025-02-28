@@ -10,11 +10,10 @@ function FooterFour() {
                         <div className="col-xl-3 col-lg-6">
                             <div className="footer-three-single-wized left">
                                 <a href="index" className="logo_footer">
-                                    <img src="assets/images/logo/logo-5.1.svg" alt="Logo-image" />
+                                    <img src="assets/images/logo/logo1.svg" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
-                                    Felis consquat magnis fames sagittis ultrices plasodales porttitor
-                                    quisque ultrice tempor turpis.
+                                LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
                                 </p>
                                 <ul className="social-three-wrapper">
                                     <li>
@@ -24,9 +23,9 @@ function FooterFour() {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fab fa-twitter" />
+                                        <i class="fad fa-times"></i>
                                         </a>
-                                    </li>
+                                        </li>
                                     <li>
                                         <a href="#">
                                             <i className="fab fa-linkedin-in" />
@@ -39,7 +38,7 @@ function FooterFour() {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fab fa-skype" />
+                                            <i className="fab fa-whatsapp" />
                                         </a>
                                     </li>
                                 </ul>
