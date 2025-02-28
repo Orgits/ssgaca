@@ -178,7 +178,7 @@ function FooterFour() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center ptb--25">
-                                    LDR Groups - Copyright 2024. All rights reserved.
+                                    LDR Groups - Copyright 2025. All rights reserved.
                                 </p>
                             </div>
                         </div>

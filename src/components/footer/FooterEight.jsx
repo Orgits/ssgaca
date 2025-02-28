@@ -179,7 +179,7 @@ function FooterEight() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center">
-                                    LDR Groups - Copyright 2024. All rights reserved.
+                                    LDR Groups - Copyright 2025. All rights reserved.
                                 </p>
                             </div>
                         </div>
