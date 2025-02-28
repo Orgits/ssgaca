@@ -123,7 +123,7 @@ function HeaderOne() {
                                             to={'#'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
                                         >
-                                            Get Quote
+                                            Get a Consultant
                                         </Link>
                                         <button
                                             id="menu-btn"
