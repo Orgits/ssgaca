@@ -37,7 +37,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <Link className="logo-1" href="index.html">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo-1.svg"
+                            src="/assets/images/logo/logo.png"
                             alt="LDR Groups_logo"
                         />
                     </Link>
@@ -64,8 +64,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     </Link>
                     <div className="body d-none d-xl-block">
                         <p className="disc">
-                            We must explain to you how all seds this mistakens idea denouncing
-                            pleasures and praising account.
+                        LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
                         </p>
                         <div className="get-in-touch">
                             {/* title */}
@@ -75,25 +74,25 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-phone-alt" />
-                                    <Link href="#">+8801234566789</Link>
+                                    <Link href="tel:+91 92055 44540">+91 92055 44540</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-envelope" />
-                                    <Link href="#">example@gmail.com</Link>
+                                    <Link href="mailto:Office@ldrgroups.com">Office@ldrgroups.com</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-globe" />
-                                    <Link href="#">www.webexample.com</Link>
+                                    <Link href="#">ldrgroups.in</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">13/A, New Pro State, NYC</Link>
+                                    <Link href="#">7th Floor, Office No. 74D, Himalaya House KG Marg Area, ND - 110001</Link>
                                 </div>
                                 {/* single ENd */}
                             </div>
