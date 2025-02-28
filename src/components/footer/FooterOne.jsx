@@ -212,7 +212,7 @@ function FooterOne() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="text-center">
-                                    <p>LDR Groups - Copyright 2022. All rights reserved.</p>
+                                    <p>LDR Groups - Copyright 2025. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

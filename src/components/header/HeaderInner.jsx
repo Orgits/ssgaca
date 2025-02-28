@@ -11,7 +11,7 @@ function HeaderInner() {
                             <div className="col-lg-6 d-xl-block d-none">
                                 <div className="left">
                                     <div className="mail">
-                                        <a href="mailto:webmaster@example.com">
+                                        <a href="mailto:Office@ldrgroups.com">
                                             <i className="fal fa-envelope" /> Office@ldrgroups.com
                                         </a>
                                     </div>

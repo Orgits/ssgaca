@@ -51,7 +51,7 @@ function HeaderOne() {
                             <div className="col-lg-6 d-xl-block d-none">
                                 <div className="left">
                                     <div className="mail">
-                                        <Link to={'mailto:webmaster@example.com'}>
+                                        <Link to={'mailto:Office@ldrgroups.com'}>
                                             <i className="fal fa-envelope" /> Office@ldrgroups.com
                                         </Link>
                                     </div>
