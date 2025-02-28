@@ -73,7 +73,7 @@ function ContactUs() {
                                         <img src="assets/images/contact/shape/02.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>MAke A Quote</span><br />
+                                        <span>Write to Us</span><br />
                                         <Link to={'mailto:someone@example.com'}>
                                             <h7><b>Office@ldrgroups.com</b></h7>
                                         </Link>
