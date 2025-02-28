@@ -10,7 +10,7 @@ function Nav() {
                         </Link>
                         </li>
                     <li >
-                        <Link className="nav-item" to={'#'}>
+                        <Link className="nav-item" to={'/about-us'}>
                             About Us
                         </Link>
                            </li>
