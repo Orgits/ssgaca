@@ -9,35 +9,14 @@ function Nav() {
                             Home
                         </Link>
                         </li>
-                    <li className="has-droupdown">
-                        <Link className="nav-link" to={'#'}>
-                            Services
+                    <li >
+                        <Link className="nav-item" to={'#'}>
+                            About Us
                         </Link>
-                        <ul className="submenu menu-link3">
-                            <li className="sub-droupdown">
-                                <Link className="sub-menu-link" to={'#'}>
-                                    Our Service
-                                </Link>
-                                <ul className="submenu third-lvl">
-                                    <li>
-                                        <Link to={'/our-service'}>Service 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/service-2'}>Service 2</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/service-3'}>Service 3</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <Link to={'/service-details'}>Service Details</Link>
-                            </li>
-                        </ul>
-                    </li>
+                           </li>
                     <li className="has-droupdown">
-                        <Link className="nav-link" to={'#'}>
-                            Pages
+                        <Link className="nav-link" to={'/our-service'}>
+                            Services
                         </Link>
                         <ul className="submenu menu-link">
                             <li className="menu-item">
@@ -125,27 +104,17 @@ function Nav() {
                             </li>
                         </ul>
                     </li>
-                    <li className="has-droupdown">
-                        <Link className="nav-link" to={'#'}>
+                    <li >
+                        <Link className="nav-item" to={'/blog-grid'}>
                             Blog
                         </Link>
-                        <ul className="submenu">
-                            <li>
-                                <Link to={'/blog-list'}>Blog List</Link>
-                            </li>
-                            <li>
-                                <Link to={'/blog-grid'}>Blog Grid</Link>
-                            </li>
-                            <li>
-                                <Link to={'/blog-details-default'}>Blog Details</Link>
-                            </li>
-                        </ul>
+                        
                     </li>
-                    <li >
+                    {/* <li >
                         <Link className="nav-item" to={'/pricing-plane'}>
                             Pricing Plane
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link className="nav-item" to={'/contactus'}>
                             Contact
