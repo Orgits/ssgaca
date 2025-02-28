@@ -5,87 +5,10 @@ function Nav() {
         <div>
             <nav className="nav-main mainmenu-nav d-none d-xl-block">
                 <ul className="mainmenu">
-                    <li className="has-droupdown">
-                        <Link className="nav-link" to={'#'} >
+                <li><Link className="nav-item" to={'/contactus'}>
                             Home
                         </Link>
-                        <ul className="submenu menu-link1">
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'} >
-                                    Multi Pages
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/'}>Main Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-two'}>Consulting Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-three'}>Corporate Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-four'}>Insurance Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-five'}>Marketing Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-six'}>Home finance</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-seven'}>Human Resources</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-eight'}>IT Solutions</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-nine'}>Modern Agency</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-ten'}>Startup Agency</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'} >
-                                    One Page
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-one'}>Main Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-two'}>Consulting Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-three'}>Corporate Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-four'}>Insurance Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-five'}>Marketing Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-six'}>Home finance</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-seven'}>Human Resources</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-eight'}>IT Solutions</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-nine'}>Modern Agency</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-ten'}>Startup Agency</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                        </li>
                     <li className="has-droupdown">
                         <Link className="nav-link" to={'#'}>
                             Services

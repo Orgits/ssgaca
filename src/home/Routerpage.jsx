@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LoadTop from '../components/LoadTop';
 import BackToTop from '../components/BackToTop';
 import HomeOne from "./HomeOne";
-import HomeTwo from "./HomeTwo";
-import HomeThree from "./HomeThree";
-import HomeFour from "./HomeFour";
-import HomeFive from "./HomeFive";
-import HomeSix from "./HomeSix";
-import HomeSeven from "./HomeSeven";
-import HomeEight from "./HomeEight";
-import HomeNine from "./HomeNine";
-import HomeTen from "./HomeTen";
+// import HomeTwo from "./HomeTwo";
+// import HomeThree from "./HomeThree";
+// import HomeFour from "./HomeFour";
+// import HomeFive from "./HomeFive";
+// import HomeSix from "./HomeSix";
+// import HomeSeven from "./HomeSeven";
+// import HomeEight from "./HomeEight";
+// import HomeNine from "./HomeNine";
+// import HomeTen from "./HomeTen";
 // inner pages
 import OurService from "../inner/OurService";
 import ServiceTwo from "../inner/ServiceTwo";
@@ -62,7 +62,7 @@ function RouterPage() {
                 <LoadTop />
                 <Routes>
                     <Route path="/" element={<HomeOne />}></Route>
-                    <Route path="/home-two" element={<HomeTwo />}></Route>
+                    {/* <Route path="/home-two" element={<HomeTwo />}></Route>
                     <Route path="/home-three" element={<HomeThree />}></Route>
                     <Route path="/home-four" element={<HomeFour />}></Route>
                     <Route path="/home-five" element={<HomeFive />}></Route>
@@ -70,7 +70,7 @@ function RouterPage() {
                     <Route path="/home-seven" element={<HomeSeven />}></Route>
                     <Route path="/home-eight" element={<HomeEight />}></Route>
                     <Route path="/home-nine" element={<HomeNine />}></Route>
-                    <Route path="/home-ten" element={<HomeTen />}></Route>
+                    <Route path="/home-ten" element={<HomeTen />}></Route> */}
                     <Route path="/our-service" element={<OurService />}></Route>
                     <Route path="/service-2" element={<ServiceTwo />}></Route>
                     <Route path="/service-3" element={<ServiceThree />}></Route>
