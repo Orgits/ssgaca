@@ -20,15 +20,15 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_549_2" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_549_2" x1="79.3592" y1="35.4825" x2="80.0429" y2="75.9906" gradientUnits="userSpaceOnUse">
-<stop offset="0.244792" stop-color="#DF0A0A"/>
+<stop offset="0.244792" stop-color="#145886"/>
 <stop offset="1" stop-color="#9C0000"/>
 </linearGradient>
 <linearGradient id="paint1_linear_549_2" x1="69.6371" y1="45.3357" x2="70.1572" y2="76.159" gradientUnits="userSpaceOnUse">
-<stop offset="0.244792" stop-color="#DF0A0A"/>
+<stop offset="0.244792" stop-color="#145886"/>
 <stop offset="1" stop-color="#9C0000"/>
 </linearGradient>
 <linearGradient id="paint2_linear_549_2" x1="59.9336" y1="55.6947" x2="60.2817" y2="76.3271" gradientUnits="userSpaceOnUse">
-<stop offset="0.244792" stop-color="#DF0A0A"/>
+<stop offset="0.244792" stop-color="#145886"/>
 <stop offset="1" stop-color="#9C0000"/>
 </linearGradient>
 </defs>
