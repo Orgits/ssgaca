@@ -95,7 +95,7 @@ function GalleryOne() {
                                                         />
                                                     </div>
                                                     <Link to={'/project-details'}>
-                                                        <h4 className="title">Finbiz Pro Business</h4>
+                                                        <h4 className="title">LDR Groups Pro Business</h4>
                                                     </Link>
                                                     <span>Case Study, Growth</span>
                                                     <p className="disc">

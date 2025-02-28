@@ -30,7 +30,7 @@ function FooterTwo() {
                                         <h5 className="wized-title">Our Services</h5>
                                         <img
                                             src="assets/images/footer/under-title-2.png"
-                                            alt="finbiz_footer"
+                                            alt="LDR Groups_footer"
                                         />
                                     </div>
                                     <div className="wized-2-body">
@@ -76,7 +76,7 @@ function FooterTwo() {
                                         <h5 className="wized-title">Contact Us</h5>
                                         <img
                                             src="assets/images/footer/under-title-2.png"
-                                            alt="finbiz_footer"
+                                            alt="LDR Groups_footer"
                                         />
                                     </div>
                                     <div className="wized-2-body">
@@ -95,7 +95,7 @@ function FooterTwo() {
                                             </div>
                                             <div className="disc">
                                                 <span>Work with us</span>
-                                                <Link to={'#'}>info@finbiz.com</Link>
+                                                <Link to={'#'}>Office@ldrgroups.com</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -133,7 +133,7 @@ function FooterTwo() {
                             <div className="col-lg-12">
                                 <div className="copyright-h-2-wrapper">
                                     <p className="disc">
-                                        FINBIZ - Copyright 2024. All rights reserved.
+                                        LDR Groups - Copyright 2024. All rights reserved.
                                     </p>
                                     <div className="right">
                                         <ul>

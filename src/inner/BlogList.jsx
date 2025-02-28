@@ -121,7 +121,7 @@ function ProjectThree() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href="#">
-                                                Finbiz Solution <i className="far fa-long-arrow-right" />
+                                                LDR Groups Solution <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
                                     </ul>

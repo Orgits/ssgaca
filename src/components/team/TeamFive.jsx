@@ -24,7 +24,7 @@ function TeamFive() {
                                         alt="pre-title"
                                     />
                                 </div>
-                                <h2 className="title color-white">Finbiz Professionals</h2>
+                                <h2 className="title color-white">LDR Groups Professionals</h2>
                             </div>
                         </div>
                     </div>

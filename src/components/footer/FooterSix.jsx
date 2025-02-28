@@ -49,7 +49,7 @@ function FooterSix() {
                                     <h5 className="title">Quick Links</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="finbiz_footer"
+                                        alt="LDR Groups_footer"
                                     />
                                 </div>
                                 <div className="quick-link-inner">
@@ -114,7 +114,7 @@ function FooterSix() {
                                     <h5 className="title">Opening Hours</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="finbiz_footer"
+                                        alt="LDR Groups_footer"
                                     />
                                 </div>
                                 <div className="opening-time-inner">
@@ -144,7 +144,7 @@ function FooterSix() {
                                     <h5 className="title">Popular Updates</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="finbiz_footer"
+                                        alt="LDR Groups_footer"
                                     />
                                 </div>
                                 <div className="post-wrapper">
@@ -153,7 +153,7 @@ function FooterSix() {
                                         <div className="left-thumbnail">
                                             <img
                                                 src="assets/images/footer/post/01.png"
-                                                alt="finbiz_business-post"
+                                                alt="LDR Groups_business-post"
                                             />
                                         </div>
                                         <div className="post-right">
@@ -178,7 +178,7 @@ function FooterSix() {
                                         <div className="left-thumbnail">
                                             <img
                                                 src="assets/images/footer/post/02.png"
-                                                alt="finbiz_business-post"
+                                                alt="LDR Groups_business-post"
                                             />
                                         </div>
                                         <div className="post-right">
@@ -211,7 +211,7 @@ function FooterSix() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="text-center">
-                                    <p>FINBIZ - Copyright 2022. All rights reserved.</p>
+                                    <p>LDR Groups - Copyright 2022. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

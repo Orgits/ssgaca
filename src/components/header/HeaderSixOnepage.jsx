@@ -66,7 +66,7 @@ function HeaderSix() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div className="thumbnail">
                                     <Link href="index.html">
-                                        <img src="assets/images/logo/logo-3.svg" alt="finbiz-logo" />
+                                        <img src="assets/images/logo/logo-3.svg" alt="LDR Groups-logo" />
                                     </Link>
                                 </div>
                             </div>

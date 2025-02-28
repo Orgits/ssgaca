@@ -31,7 +31,7 @@ function ProjectThree() {
                             <div className="big-bg-porduct-details">
                                 <img
                                     src="assets/images/product/bg-lg-01.jpg"
-                                    alt="Business_Finbiz"
+                                    alt="Business_LDR Groups"
                                 />
                                 <div className="project-info">
                                     <div className="info-head">

@@ -54,7 +54,7 @@ function ContactUs() {
                                     <div className="info">
                                         <span>MAke A Quote</span>
                                         <Link to={'mailto:someone@example.com'}>
-                                            <h5>info@finbiz.com</h5>
+                                            <h5>Office@ldrgroups.com</h5>
                                         </Link>
                                     </div>
                                 </div>

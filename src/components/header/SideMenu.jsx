@@ -38,28 +38,28 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-1.svg"
-                            alt="finbiz_logo"
+                            alt="LDR Groups_logo"
                         />
                     </Link>
                     <Link className="logo-2" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-4.svg"
-                            alt="finbiz_logo"
+                            alt="LDR Groups_logo"
                         />
                     </Link>
                     <Link className="logo-3" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-3.svg"
-                            alt="finbiz_logo"
+                            alt="LDR Groups_logo"
                         />
                     </Link>
                     <Link className="logo-4" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-5.svg"
-                            alt="finbiz_logo"
+                            alt="LDR Groups_logo"
                         />
                     </Link>
                     <div className="body d-none d-xl-block">

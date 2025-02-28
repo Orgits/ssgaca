@@ -34,7 +34,7 @@ function FaqTwo() {
                                                 </Accordion.Body>
                                             </Accordion.Item>
                                             <Accordion.Item eventKey="2">
-                                                <Accordion.Header>Finbiz Company Solution</Accordion.Header>
+                                                <Accordion.Header>LDR Groups Company Solution</Accordion.Header>
                                                 <Accordion.Body>
                                                     Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod nec quam convallis ornare justo
                                                 </Accordion.Body>

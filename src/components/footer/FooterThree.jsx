@@ -73,7 +73,7 @@ function FooterThree() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <Link to={'#'}>info@finbiz.com</Link>
+                                                        <Link to={'#'}>Office@ldrgroups.com</Link>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -180,7 +180,7 @@ function FooterThree() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center">
-                                    FINBIZ - Copyright 2024. All rights reserved.
+                                    LDR Groups - Copyright 2024. All rights reserved.
                                 </p>
                             </div>
                         </div>
