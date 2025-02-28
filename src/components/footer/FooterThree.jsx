@@ -62,7 +62,7 @@ function FooterThree() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Call Us 24/7</span>
-                                                        <Link to={'#'}>(+256) 2145.2156</Link>
+                                                        <Link to={'#'}>+91 92055 44540</Link>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -85,8 +85,7 @@ function FooterThree() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <Link to={'#'}>
-                                                            XYZ Hilton Street, 125 <br />
-                                                            Town United State
+                                                           7th Floor, Office No. 74D,  <br/>Himalaya House KG Marg Area, ND - 110001
                                                         </Link>
                                                     </div>
                                                 </div>

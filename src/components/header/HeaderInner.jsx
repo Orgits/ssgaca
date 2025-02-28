@@ -17,7 +17,7 @@ function HeaderInner() {
                                     </div>
                                     <div className="working-time">
                                         <p>
-                                            <i className="fal fa-clock" /> Working: 8.00am - 5.00pm
+                                            <i className="fal fa-clock" /> Working: 10.00am - 06.00pm
                                         </p>
                                     </div>
                                 </div>

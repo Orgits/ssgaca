@@ -44,7 +44,7 @@ function HeaderTen() {
                         <div className="right-header-top">
                             <div className="working-time">
                                 <i className="far fa-clock" />
-                                <span>Working: 8.00am - 5.00pm</span>
+                                <span>Working: 10.00am - 06.00pm</span>
                             </div>
                             <div className="ht-social">
                                 <span>Visit Us:</span>

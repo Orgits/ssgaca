@@ -37,7 +37,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <Link className="logo-1" href="index.html">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo.png"
+                            src="/assets/images/logo/log.png"
                             alt="LDR Groups_logo"
                         />
                     </Link>
@@ -104,12 +104,14 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                     <i className="fab fa-twitter" />
                                 </Link>
                                 <Link href="#">
+                                <i class="fab fa-linkedin"></i>
+                                </Link>
+                                <Link href="#">
                                     <i className="fab fa-instagram" />
                                 </Link>
                                 <Link href="#">
                                     <i className="fab fa-whatsapp" />
                                 </Link>
-                                {/* <Link href="#"><i class="fab fa-linkedin"></i></Link> */}
                             </div>
                         </div>
                     </div>
@@ -240,15 +242,19 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 <i className="fab fa-facebook-f" />
                             </Link>
                             <Link href="#">
-                                <i className="fab fa-twitter" />
+                                <i className="fab fa-twitter" />  
                             </Link>
+
                             <Link href="#">
                                 <i className="fab fa-instagram" />
                             </Link>
-                            <Link href="#">
+                            {/* <Link href="#">
                                 <i className="fab fa-whatsapp" />
+                            </Link> */}
+                            
+                            <Link href="#">
+                            <i className="fab fa-linkedin-in" />
                             </Link>
-                            {/* <Link href="#"><i class="fab fa-linkedin"></i></Link> */}
                         </div>
                         <Link
                             href="#"

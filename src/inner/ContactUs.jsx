@@ -4,6 +4,7 @@ import HeaderOne from "../components/header/HeaderOne";
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "./Breadcrumb";
+import FooterFour from '../components/footer/FooterFour';
 
 function ContactUs() {
     const breadcrumbs = [
@@ -156,7 +157,7 @@ function ContactUs() {
             </div>
             {/* conact us form fluid end */}
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
     )

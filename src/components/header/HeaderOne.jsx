@@ -57,7 +57,7 @@ function HeaderOne() {
                                     </div>
                                     <div className="working-time">
                                         <p>
-                                            <i className="fal fa-clock" /> Working: 8.00am - 5.00pm
+                                            <i className="fal fa-clock" /> Working: 10.00am - 06.00pm
                                         </p>
                                     </div>
                                 </div>
@@ -88,12 +88,17 @@ function HeaderOne() {
                                         </li>
                                         <li>
                                             <Link to={'#'}>
+                                                <i className="fab fa-linkedin-in" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                        <Link to={'#'}>
                                                 <i className="fab fa-instagram" />
                                             </Link>
                                         </li>
                                         <li>
                                             <Link className="mr--0" to={'#'}>
-                                                <i className="fab fa-linkedin-in" />
+                                                <i className="fab fa-whatsapp" />
                                             </Link>
                                         </li>
                                     </ul>

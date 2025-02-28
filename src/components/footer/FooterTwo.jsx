@@ -86,7 +86,7 @@ function FooterTwo() {
                                             </div>
                                             <div className="disc">
                                                 <span>Call Us 24/7</span>
-                                                <Link to={'#'}>(+256) 2145.2156</Link>
+                                                <Link to={'#'}>+91 92055 44540</Link>
                                             </div>
                                         </div>
                                         <div className="contact-info-1">

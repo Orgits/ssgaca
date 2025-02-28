@@ -9,6 +9,7 @@ import PricingThree from "../components/pricing/PricingThree";
 
 
 import FooterOne from "../components/footer/FooterOne";
+import FooterFour from '../components/footer/FooterFour';
 
 function OurService() {
     const breadcrumbs = [
@@ -25,7 +26,7 @@ function OurService() {
             <PricingThree />
 
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
     )

@@ -6,6 +6,7 @@ import TeamTwo from "../components/team/TeamTwo";
 import FooterOne from "../components/footer/FooterOne";
 
 import Accordion from 'react-bootstrap/Accordion';
+import FooterFour from '../components/footer/FooterFour';
 
 
 
@@ -423,7 +424,7 @@ function OurService() {
             {/* customers feed back area end */}
 
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
     )

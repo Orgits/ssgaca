@@ -7,6 +7,7 @@ import post from '../data/post.json';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "./Breadcrumb";
 import BlogListMain from './BlogListMain';
+import FooterFour from '../components/footer/FooterFour';
 
 
 function BlogGrid() {
@@ -341,7 +342,7 @@ function BlogGrid() {
             </div>
             {/* rts blog grid area end */}
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
     )

@@ -61,7 +61,7 @@ function FooterFour() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Call Us 24/7</span>
-                                                        <a href="#">(+256) 2145.2156</a>
+                                                        <a href="#">+91 92055 44540</a>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -84,8 +84,7 @@ function FooterFour() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <a href="#">
-                                                            XYZ Hilton Street, 125 <br />
-                                                            Town United State
+                                                           7th Floor, Office No. 74D,  <br/>Himalaya House KG Marg Area, ND - 110001
                                                         </a>
                                                     </div>
                                                 </div>
