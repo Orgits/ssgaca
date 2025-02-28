@@ -121,9 +121,9 @@ function HeaderOne() {
                                 <div className="main-header">
                                     <Nav />
                                     <div className="button-area">
-                                        <button id="search" className="rts-btn btn-primary-alta" onClick={handleSearchClick}>
+                                        {/* <button id="search" className="rts-btn btn-primary-alta" onClick={handleSearchClick}>
                                             <i className="far fa-search" />
-                                        </button>
+                                        </button> */}
                                         <Link
                                             to={'#'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
@@ -164,9 +164,9 @@ function HeaderOne() {
                                 type="text"
                                 placeholder="Search by keyword or #"
                             />
-                            <button>
+                            {/* <button>
                                 <i className="far fa-search" />
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

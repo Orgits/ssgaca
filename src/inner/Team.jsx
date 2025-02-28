@@ -6,6 +6,7 @@ import HeaderOne from "../components/header/HeaderOne";
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "./Breadcrumb";
+import FooterFour from '../components/footer/FooterFour';
 
 
 function ProjectThree() {
@@ -277,7 +278,7 @@ function ProjectThree() {
 
 
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
     )
