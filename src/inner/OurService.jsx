@@ -4,9 +4,8 @@ import Breadcrumb from "./Breadcrumb";
 import ServiceTen from "../components/service/ServiceTen";
 import FaqTwo from "../components/faq/FaqTwo";
 import PricingThree from "../components/pricing/PricingThree";
-
-
-
+import BlogThree from "../components/blog/BlogThree";
+import ContactForm from "../components/contactform/ContactForm";
 
 import FooterOne from "../components/footer/FooterOne";
 import FooterFour from '../components/footer/FooterFour';
@@ -22,10 +21,11 @@ function OurService() {
             <HeaderOne />
             <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
             <ServiceTen />
-            <FaqTwo />
+            {/* <FaqTwo /> */}
             {/* <PricingThree /> */}
-
-
+            <ContactForm />
+            <BlogThree />
+     
             <FooterFour />
 
         </div>
