@@ -10,7 +10,7 @@ function FooterFour() {
                         <div className="col-xl-3 col-lg-6">
                             <div className="footer-three-single-wized left">
                                 <a href="index" className="logo_footer">
-                                    <img src="assets/images/logo/logo1.svg" alt="Logo-image" />
+                                    <img src="assets/images/logo/logo.svg" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
                                 LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
@@ -72,7 +72,7 @@ function FooterFour() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <a href="#">Office@ldrgroups.com</a>
+                                                        <a href="mailto:Office@ldrgroups.com">Office@ldrgroups.com</a>
                                                     </div>
                                                 </div>
                                                 <div className="single">

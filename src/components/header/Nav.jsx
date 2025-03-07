@@ -5,116 +5,124 @@ function Nav() {
         <div>
             <nav className="nav-main mainmenu-nav d-none d-xl-block">
                 <ul className="mainmenu">
-                <li><Link className="nav-item" to={'/home-one'}>
-                            Home
-                        </Link>
-                        </li>
+                    <li><Link className="nav-item" to={'/home-one'}>
+                        Home
+                    </Link>
+                    </li>
                     <li >
                         <Link className="nav-item" to={'/about-us'}>
                             About Us
                         </Link>
-                           </li>
-                          
-                    <li className="has-droupdown">
-                        <Link className="nav-link" to={'/our-service'}>
-                            Services
-                        </Link>
-                        <ul className="submenu menu-link">
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'}>
-                                    Pages
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/appoinment'}>Appoinment</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/about-us'}>About Us</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/pricing-plane'}>Price Plans</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/our-service'}>Our Services</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/testimonial-style-1'}>Testimonial</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/404'}>404 Page</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'}>
-                                    Portfolio
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/project'}>Portfolio Style 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/portfolio-style-2'}>
-                                            Portfolio Style 2
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/portfolio-style-3'}>
-                                            Portfolio Style 3
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/portfolio-style-4'}>
-                                            Portfolio Style 4
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/portfolio-style-5'}>
-                                            Portfolio Style 5
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/project-details'}>Portfolio Details</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'}>
-                                    Our Teams
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/team'}>Team Style 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-2'}>Team Style 2</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-3'}>Team Style 3</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-4'}>Team Style 4</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-5'}>Team Style 5</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-details'}>Team Details</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </li>
-                    <li >
-                        <Link className="nav-item" to={'/team'}>
-                            Our Team
-                        </Link>
-                           </li>
+
+                    <li className="has-droupdown">
+    <Link className="nav-link" to={'#'}>
+        Services
+    </Link>
+    <ul className="submenu menu-link four-columns">
+        <div className="column">
+            {/* Column 1: Audit & Litigation */}
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Audit & Assurance</Link>
+                <ul>
+                    <li><Link to={'#'}>Statutory Audit</Link></li>
+                    <li><Link to={'#'}>Internal Audit</Link></li>
+                    <li><Link to={'#'}>Forensic Audit</Link></li>
+                    <li><Link to={'#'}>Due Diligence</Link></li>
+                    <li><Link to={'#'}>Risk Assessment</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Litigation Services</Link>
+                <ul>
+                    <li><Link to={'#'}>Income Tax Litigation</Link></li>
+                    <li><Link to={'#'}>GST Litigation</Link></li>
+                    <li><Link to={'#'}>Corporate Law Disputes</Link></li>
+                    <li><Link to={'#'}>Tribunal Representations</Link></li>
+                    <li><Link to={'#'}>Arbitration Services</Link></li>
+                </ul>
+            </li>
+        </div>
+
+        <div className="column">
+            {/* Column 2: International Tax & Transfer Pricing */}
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>International Taxation</Link>
+                <ul>
+                    <li><Link to={'#'}>Transfer Pricing</Link></li>
+                    <li><Link to={'#'}>DTAA</Link></li>
+                    <li><Link to={'#'}>Cross-Border Taxation</Link></li>
+                    <li><Link to={'#'}>Expat Taxation</Link></li>
+                    <li><Link to={'#'}>Foreign Investment Compliance</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Transfer Pricing</Link>
+                <ul>
+                    <li><Link to={'#'}>Arm's Length Pricing</Link></li>
+                    <li><Link to={'#'}>Documentation Compliance</Link></li>
+                    <li><Link to={'#'}>Benchmarking Analysis</Link></li>
+                    <li><Link to={'#'}>Dispute Resolution</Link></li>
+                    <li><Link to={'#'}>Safe Harbor Rules</Link></li>
+                </ul>
+            </li>
+        </div>
+
+        <div className="column">
+            {/* Column 3: Compliance Services */}
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Company & LLP Compliance</Link>
+                <ul>
+                    <li><Link to={'#'}>Company Formation</Link></li>
+                    <li><Link to={'#'}>LLP Registration</Link></li>
+                    <li><Link to={'#'}>ROC Compliances</Link></li>
+                    <li><Link to={'#'}>Business Restructuring</Link></li>
+                    <li><Link to={'#'}>Corporate Governance</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>NRI Services</Link>
+                <ul>
+                    <li><Link to={'#'}>NRI Tax Filing</Link></li>
+                    <li><Link to={'#'}>Foreign Remittance Compliance</Link></li>
+                    <li><Link to={'#'}>NRE/NRO Accounting</Link></li>
+                    <li><Link to={'#'}>Property Taxation for NRIs</Link></li>
+                    <li><Link to={'#'}>Investment Advisory</Link></li>
+                </ul>
+            </li>
+        </div>
+
+        <div className="column">
+            {/* Column 4: Accounting, Payroll, Trademark & Copyright */}
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Accounting & Payroll</Link>
+                <ul>
+                    <li><Link to={'#'}>Bookkeeping Services</Link></li>
+                    <li><Link to={'#'}>Payroll Processing</Link></li>
+                    <li><Link to={'#'}>Financial Statements</Link></li>
+                    <li><Link to={'#'}>Tax-Ready Accounting</Link></li>
+                    <li><Link to={'#'}>Outsourced CFO Services</Link></li>
+                </ul>
+            </li>
+            <li className="menu-item">
+                <Link className="tag" to={'#'}>Income Tax & GST</Link>
+                <ul>
+                    <li><Link to={'#'}>Individual Tax Filing</Link></li>
+                    <li><Link to={'#'}>Corporate Tax Filing</Link></li>
+                    <li><Link to={'#'}>TDS Compliance</Link></li>
+                    <li><Link to={'#'}>Advance Tax Computation</Link></li>
+                    <li><Link to={'#'}>GST Return Filing</Link></li>
+                </ul>
+            </li>
+        </div>
+    </ul>
+</li>
+
                     <li >
                         <Link className="nav-item" to={'/blog-grid'}>
                             Blog
                         </Link>
-                        
+
                     </li>
                     {/* <li >
                         <Link className="nav-item" to={'/pricing-plane'}>
@@ -128,7 +136,7 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     )
 }
 

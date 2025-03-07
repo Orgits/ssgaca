@@ -15371,8 +15371,7 @@ body.sal-disabled [data-sal|=flip] {
 @media only screen and (max-width: 479px) {
   .header-main-one .thumbnail a {
     padding: 18px 0;
-    display: block;
-  max-width: max-content;
+    
   }
 }
 
@@ -16569,8 +16568,9 @@ body.home-eleven #menu-btn:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 800px;
-  left: -320px;
+  width: max-content;
+left: -600px;
+  
 }
 .mainmenu li.has-droupdown .submenu.menu-link::after {
   display: none;

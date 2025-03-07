@@ -96,7 +96,7 @@ function FooterSeven() {
                                         </div>
                                         <div className="disc">
                                             <span>Work with us</span>
-                                            <Link to={'#'}>Office@ldrgroups.com</Link>
+                                            <Link to={'mailto:Office@ldrgroups.com'}>Office@ldrgroups.com</Link>
                                         </div>
                                     </div>
                                 </div>

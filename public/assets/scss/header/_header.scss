@@ -258,8 +258,8 @@
             display: block;
             max-width: max-content;
 
-            img {
-                width: 100%;
+            @media #{$small-mobile} {
+                padding: 18px 0;
             }
         }
     }
