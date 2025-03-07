@@ -54,7 +54,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 :root {
   --color-primary: #145886;
-  --color-primary-2: #0B4DF5;
+  --color-primary-2: #145886;
   --color-primary-3: #F64A00;
   --color-primary-4: #145886;
   --color-primary-5: #B00F0F;
@@ -21111,7 +21111,7 @@ body.thirteen-body .title-area span {
   padding-bottom: 0;
 }
 .rts-tab-style-one .button-area button.active {
-  color: #0B4DF5;
+  color: #145886;
 }
 .rts-tab-style-one .tab-content {
   margin-left: 30px;
@@ -30022,7 +30022,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   transform: scale(1.1);
 }
 .rts-blog-h-2-wrapper .body span {
-  color: #0B4DF5;
+  color: #145886;
   font-size: 16px;
   font-weight: 500;
 }
@@ -32089,7 +32089,7 @@ p.disc {
 .rts-working-process-1 .inner {
   width: 192px;
   height: 192px;
-  border: 2px dashed #0b4df52f;
+  border: 2px dashed #1458862f;
   display: flex;
   align-items: center;
   justify-content: center;

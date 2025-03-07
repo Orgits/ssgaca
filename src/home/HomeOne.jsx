@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderOne from "../components/header/HeaderOne";
-import BannerOne from "../components/banner/BannerOne";
+import BannerTwo from "../components/banner/BannerFive";
 import AboutOne from "../components/about/AboutOne";
 import ServiceOne from "../components/service/ServiceOne";
 import BusinessGoalOne from "../components/businessgoal/BusinessGoalOne";
@@ -24,7 +24,7 @@ function HomeOne() {
     <div>
 
       <HeaderOne />
-      <BannerOne />
+      <BannerTwo />
       <AboutOne />
       <ServiceOne />
       <BusinessGoalOne />

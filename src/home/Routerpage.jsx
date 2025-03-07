@@ -42,16 +42,16 @@ import BlogDetailsDefault from '../inner/BlogDetailsDefault';
 import ContactUs from '../inner/ContactUs';
 
 // onepage
-import OnepageOne from '../onepage/OnepageOne';
-import OnepageTwo from '../onepage/OnepageTwo';
-import OnepageThree from '../onepage/OnepageThree';
-import OnepageFour from '../onepage/OnepageFour';
-import OnepageFIve from '../onepage/OnepageFIve';
-import OnepageSix from '../onepage/OnepageSix';
-import OnepageSeven from '../onepage/OnepageSeven';
-import OnepageEight from '../onepage/OnepageEight';
-import OnepageNine from '../onepage/OnepageNine';
-import OnepageTen from '../onepage/OnepageTen';
+// import OnepageOne from '../onepage/OnepageOne';
+// import OnepageTwo from '../onepage/OnepageTwo';
+// import OnepageThree from '../onepage/OnepageThree';
+// import OnepageFour from '../onepage/OnepageFour';
+// import OnepageFIve from '../onepage/OnepageFIve';
+// import OnepageSix from '../onepage/OnepageSix';
+// import OnepageSeven from '../onepage/OnepageSeven';
+// import OnepageEight from '../onepage/OnepageEight';
+// import OnepageNine from '../onepage/OnepageNine';
+// import OnepageTen from '../onepage/OnepageTen';
 
 
 
@@ -94,14 +94,14 @@ function RouterPage() {
                     <Route path="/team-style-4" element={<TeamFour />}></Route>
                     <Route path="/team-style-5" element={<TeamFive />}></Route>
                     <Route path="/team-details" element={<TeamDetails />}></Route>
-                    <Route path="/blog-list" element={<BlogList />}></Route>
+                    {/* <Route path="/blog-list" element={<BlogList />}></Route> */}
                     <Route path="/blog-grid" element={<BlogGrid />}></Route>
-                    <Route path="/blog-details" element={<BlogDetails />}></Route>
+                    {/* <Route path="/blog-details" element={<BlogDetails />}></Route> */}
                     <Route path="/blog/:id" element={<BlogDetails />}></Route>
                     <Route path="/blog-details-default" element={<BlogDetailsDefault />}></Route>
                     <Route path="/contactus" element={<ContactUs />}></Route>
                     {/* onepage */}
-                    <Route path="/onepage-one" element={<OnepageOne />}></Route>
+                    {/* <Route path="/onepage-one" element={<OnepageOne />}></Route>
                     <Route path="/onepage-two" element={<OnepageTwo />}></Route>
                     <Route path="/onepage-three" element={<OnepageThree />}></Route>
                     <Route path="/onepage-four" element={<OnepageFour />}></Route>
@@ -110,7 +110,7 @@ function RouterPage() {
                     <Route path="/onepage-seven" element={<OnepageSeven />}></Route>
                     <Route path="/onepage-eight" element={<OnepageEight />}></Route>
                     <Route path="/onepage-nine" element={<OnepageNine />}></Route>
-                    <Route path="/onepage-ten" element={<OnepageTen />}></Route>
+                    <Route path="/onepage-ten" element={<OnepageTen />}></Route> */}
                 </Routes>
                 <BackToTop />
             </Router>

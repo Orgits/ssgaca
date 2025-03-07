@@ -34,10 +34,10 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                 </button>
                 {/* inner menu area desktop start */}
                 <div className="rts-sidebar-menu-desktop">
-                    <Link className="logo-1" href="index.html">
+                    <Link className="logo-1" href="/assets/images/logo/logo.svg">
                         <img
                             className="logo"
-                            src="/assets/images/logo/log.png"
+                            src="/assets/images/logo/logo.svg"
                             alt="LDR Groups_logo"
                         />
                     </Link>
@@ -74,7 +74,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-phone-alt" />
-                                    <Link href="tel:+91 92055 44540">+91 92055 44540</Link>
+                                    <Link href="tel:+919205544540">+91 92055 44540</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
@@ -118,122 +118,23 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <div className="body-mobile d-block d-xl-none">
                         <nav className="nav-main mainmenu-nav">
                             <ul className="mainmenu metismenu" id="mobile-menu-active">
-                                <li className="has-droupdown menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(1)}>
-                                        Home
-                                    </Link>
-                                    <ul className={`submenu ${openMenu === 1 ? 'mm-collapse mm-show' : 'mm-collapse'}`} >
-                                        <li>
-                                            <ul>
-                                                <Link href="#0" className="tag">
-                                                    Homepages
-                                                </Link>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/'}>Main Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-two'}>Consulting Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-three'}>Corporate Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-four'}>Insurance Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-five'}>Marketing Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-six'}>Finance Home</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-seven'}>Human Resources</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-eight'}>IT Solutions</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-nine'}>Modern Agency</Link>
-                                                </li>
-                                                <li className="mobile-menu-link">
-                                                    <Link to={'/home-ten'}>Startup Agency</Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                            <li className="menu-item">
+                                <Link to="/">Home</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <Link className="menu-link" href="about-us.html">
-                                        About Us
-                                    </Link>
+                                <Link to="/about-us">About Us</Link>
                                 </li>
-                                <li className="has-droupdown menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(2)}>
-                                        Services
-                                    </Link>
-                                    <ul className={`submenu ${openMenu === 2 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
-                                        <li>
-                                            <Link to={'/our-service'}>Service 1</Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'/service-2'}>Service 2</Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'/service-3'}>Service 3</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="service-details.html">Service Details</Link>
-                                        </li>
-                                    </ul>
+                                <li className="menu-item">
+                                <Link to="/our-service">Services</Link>
                                 </li>
-                                <li className="has-droupdown menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(3)}>
-                                        Pages
-                                    </Link>
-                                    <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
-                                        <li className="mobile-menu-link">
-                                            <Link href="project.html">Project</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="project-details.html">Project Details</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="team.html">Team</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="team-details.html">Team Details</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="appoinment.html">appoinment</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="price-plan.html">Price Plan</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="404.html">404 Page</Link>
-                                        </li>
-                                    </ul>
+                                <li className="menu-item">
+                                   <Link to="/team">Our Team</Link>
                                 </li>
-                                <li className="has-droupdown menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(4)}>
-                                        Blog
-                                    </Link>
-                                    <ul className={`submenu ${openMenu === 4 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
-                                        <li className="mobile-menu-link">
-                                            <Link href="blog-list.html">Blog List</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="blog-grid.html">Blog Grid</Link>
-                                        </li>
-                                        <li className="mobile-menu-link">
-                                            <Link href="blog-details.html">Blog Details</Link>
-                                        </li>
-                                    </ul>
+                                <li className="menu-item">
+                                   <Link to="/blog-grid">Blogs</Link>
                                 </li>
-                                <li className="menu-item menu-item">
-                                    <Link className="menu-link" href="contactus.html">
-                                        Contact
-                                    </Link>
+                                <li className="menu-item">
+                                   <Link to="/contactus">Contact Us</Link>
                                 </li>
                             </ul>
                         </nav>

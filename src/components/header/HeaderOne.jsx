@@ -69,7 +69,7 @@ function HeaderOne() {
                                             <Link to={'/about-us'}>About</Link>
                                         </li>
                                         <li>
-                                            <Link to={'/blog-list'}>News</Link>
+                                            <Link to={'/blog-grid'}>News</Link>
                                         </li>
                                         <li>
                                             <Link to={'/contactus'}>Contact</Link>
@@ -113,7 +113,7 @@ function HeaderOne() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link to={'/'} >
-                                        <img src="/assets/images/logo/log.png" alt="LDR Groups-logo" />
+                                        <img src="/assets/images/logo/logo.svg" alt="LDR Groups-logo" />
                                     </Link>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ function HeaderOne() {
                                             <i className="far fa-search" />
                                         </button> */}
                                         <Link
-                                            to={'#'}
+                                            to={'/contactus'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
                                         >
                                             Get a Consultant
