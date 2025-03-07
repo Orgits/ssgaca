@@ -14,7 +14,7 @@ const BlogGridMain = (props) => {
                     {/* single info */}
                     <div className="single">
                         <i className="far fa-user-circle" />
-                        <span>by David Smith</span>
+                        <span>By Admin</span>
                     </div>
                     {/* single infoe end */}
                     {/* single info */}

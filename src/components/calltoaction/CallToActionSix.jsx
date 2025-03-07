@@ -15,7 +15,7 @@ function CallToActionSix() {
                                         make your insurance better
                                     </h3>
                                 </div>
-                                <a className="rts-btn btn-primary-5" href="contactus.html">
+                                <a className="rts-btn btn-primary-5" href="/contactus">
                                     Lets Work Together
                                 </a>
                             </div>

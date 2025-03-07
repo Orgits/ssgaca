@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
+
 function ServiceTen() {
     return (
         <div>
@@ -7,162 +8,149 @@ function ServiceTen() {
             <div className="rts-service-area rts-section-gapTop pb--200 service-two-bg bg_image">
                 <div className="container">
                     <div className="row g-5 service padding-controler">
-                        {/* single service area */}
+
+                        {/* Manually added 30 services */}
+
+                        {/* Service 1 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail">
-                                    <img src="assets/images/service/02.jpg" alt="Business_image" />
+                                <Link to={'/service-details/1'} className="thumbnail">
+                                    <img src="/assets/images/service/AUDIT AND ASSURANCE.png" alt="Audit & Assurance" />
                                 </Link>
                                 <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">Strategy Growth</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
-                                        </Link>
-                                    </div>
+                                    <h5 className="title">Audit & Assurance</h5>
+                                    <p className="dsic">
+                                        Ensure your business's financial integrity with detailed audits and risk assessments.
+                                    </p>
+                                    <Link className="rts-read-more-two color-primary" to={'/service-details/'}>
+                                        Read More <i className="far fa-arrow-right" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        {/* single service area end*/}
-                        {/* single service area */}
+
+                        {/* Service 2 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail two">
-                                    <img src="assets/images/service/03.jpg" alt="Business_image" />
+                                <Link to={'/service-details/2'} className="thumbnail">
+                                    <img src="/assets/images/service/Reports & Certification.png" alt="Reports & Certification" />
                                 </Link>
                                 <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">Grow Business</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
-                                        </Link>
-                                    </div>
+                                    <h5 className="title">Reports & Certification</h5>
+                                    <p className="dsic">
+                                        Obtain detailed and reliable financial reports with certifications for legal compliance.
+                                    </p>
+                                    <Link className="rts-read-more-two color-primary" to={'/service-details/2'}>
+                                        Read More <i className="far fa-arrow-right" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        {/* single service area end*/}
-                        {/* single service area */}
+
+                        {/* Service 3 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail three">
-                                    <img src="assets/images/service/04.jpg" alt="Business_image" />
+                                <Link to={'/service-details/3'} className="thumbnail">
+                                    <img src="/assets/images/service/Outsourcing Support Service.png" alt="Outsourcing Support" />
                                 </Link>
                                 <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">Proudly Speech</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
-                                        </Link>
-                                    </div>
+                                    <h5 className="title">Outsourcing Support</h5>
+                                    <p className="dsic">
+                                        Streamline your financial processes by outsourcing accounting, payroll, and reporting tasks.
+                                    </p>
+                                    <Link className="rts-read-more-two color-primary" to={'/service-details/3'}>
+                                        Read More <i className="far fa-arrow-right" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        {/* single service area end*/}
-                        {/* single service area */}
+
+                     
+
+                        {/* Service 5 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail">
-                                    <img src="assets/images/service/02.jpg" alt="Business_image" />
+                                <Link to={'/service-details/5'} className="thumbnail">
+                                    <img src="/assets/images/service/FEMA Advisory.png" alt="FEMA Advisory" />
                                 </Link>
                                 <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">Model Building</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
-                                        </Link>
-                                    </div>
+                                    <h5 className="title">FEMA Advisory</h5>
+                                    <p className="dsic">
+                                        Navigate India's Foreign Exchange Management Act (FEMA) regulations with expert advisory.
+                                    </p>
+                                    <Link className="rts-read-more-two color-primary" to={'/service-details/5'}>
+                                        Read More <i className="far fa-arrow-right" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        {/* single service area end*/}
-                        {/* single service area */}
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--60">
+
+                        {/* Service 6 */}
+                        <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail two">
-                                    <img src="assets/images/service/03.jpg" alt="Business_image" />
+                                <Link to={'/service-details/6'} className="thumbnail">
+                                    <img src="/assets/images/service/Corporate Law.png" alt="Corporate Law" />
                                 </Link>
                                 <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">Solution Model</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
+                                    <h5 className="title">Corporate Law</h5>
+                                    <p className="dsic">
+                                        Get expert legal solutions for company formation, mergers, acquisitions, and governance.
+                                    </p>
+                                    <Link className="rts-read-more-two color-primary" to={'/service-details/6'}>
+                                        Read More <i className="far fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Remaining Services (7-30) */}
+                        {[
+                            "NRI Tax Compliance",
+                            "Regulatory Compliance for Business",
+                            "Registration of Section 8 Company",
+                            "Insolvency and Bankruptcy Code Services",
+                            "FEMA Compliances and Compounding",
+                            "FCRA Registration & Renewal",
+                            "Accounts Outsourcing",
+                            "TP Study & Report",
+                            "Limited Liability Partnership",
+                            "Branch Office in India",
+                            "Joint Venture in India",
+                            "Liaison Office",
+                            "Incorporation of Company in India",
+                            "Project Office",
+                            "Setting Up NGOs",
+                            "Remittance of Money by NRI from India",
+                            "Start Up India Services",
+                            "Certification and Attestation",
+                            "STPI Related Services",
+                            "Sez Related Services",
+                            "Trademark Related Services",
+                            "Legal Entity Identifier (LEI) Registration",
+                            "Goods and Services Tax (GST)"
+                        ].map((service, index) => (
+                            <div key={index + 7} className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
+                                <div className="service-two-inner">
+                                    <Link to={`/service-details/${index + 1}`} className="thumbnail">
+                                        <img src={`/assets/images/service/${service}.png`} alt={service} />
+                                    </Link>
+                                    <div className="body-content">
+                                        <h5 className="title">{service}</h5>
+                                        <p className="dsic">Expert services to help manage {service.toLowerCase()} effectively.</p>
+                                        <Link className="rts-read-more-two color-primary" to={`/service-details/${index + 2}`}>
+                                            Read More <i className="far fa-arrow-right" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* single service area end*/}
-                        {/* single service area */}
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--60 pb_sm--60">
-                            <div className="service-two-inner">
-                                <Link to={'/service-details'} className="thumbnail three">
-                                    <img src="assets/images/service/04.jpg" alt="Business_image" />
-                                </Link>
-                                <div className="body-content">
-                                    <div className="hidden-area">
-                                        <h5 className="title">LDR Groups Solution</h5>
-                                        <p className="dsic">
-                                            Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula
-                                            torquent dis mattis nullam bibendum morbi laoreet lobortis id
-                                        </p>
-                                        <Link
-                                            className="rts-read-more-two color-primary"
-                                            to={'/service-details'}
-                                        >
-                                            Read More
-                                            <i className="far fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* single service area end*/}
+                        ))}
+
                     </div>
                 </div>
             </div>
             {/* our service area end */}
         </div>
-    )
+    );
 }
 
-export default ServiceTen
+export default ServiceTen;

@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderOne from "../components/header/HeaderOne";
-import BannerTwo from "../components/banner/BannerFive";
+import BannerFive from "../components/banner/BannerFive";
 import AboutOne from "../components/about/AboutOne";
 import ServiceOne from "../components/service/ServiceOne";
 import BusinessGoalOne from "../components/businessgoal/BusinessGoalOne";
@@ -10,7 +10,7 @@ import BrandOne from "../components/brand/BrandOne";
 import TeamOne from "../components/team/TeamOne";
 import Feature from "../components/feature/Feature";
 import TestimonialOne from "../components/testimonials/TestimonialOne";
-import BlogOne from "../components/blog/BlogOne";
+import BlogThree from "../components/blog/BlogThree";
 import ContactForm from "../components/contactform/ContactForm";
 import MapOne from "../components/map/MapOne";
 
@@ -24,7 +24,7 @@ function HomeOne() {
     <div>
 
       <HeaderOne />
-      <BannerTwo />
+      <BannerFive />
       <AboutOne />
       <ServiceOne />
       <BusinessGoalOne />
@@ -35,7 +35,7 @@ function HomeOne() {
       <TeamOne />
       <Feature />
       <TestimonialOne />
-      <BlogOne />
+      <BlogThree />
       <ContactForm />
       <MapOne />
 

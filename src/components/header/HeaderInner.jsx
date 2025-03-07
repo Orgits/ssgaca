@@ -32,7 +32,7 @@ function HeaderInner() {
                                             <a href="blog-list.html">News</a>
                                         </li>
                                         <li>
-                                            <a href="contactus.html">Contact</a>
+                                            <a href="/contactus">Contact</a>
                                         </li>
                                     </ul>
                                     <ul className="social-wrapper-one">
@@ -385,7 +385,7 @@ function HeaderInner() {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a className="nav-item" href="contactus.html">
+                                                <a className="nav-item" href="/contactus">
                                                     Contact
                                                 </a>
                                             </li>

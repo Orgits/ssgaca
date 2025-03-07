@@ -55,8 +55,8 @@ function BusinessGoalOne() {
                         <div className="col-lg-6 mt--35 mt_md--70 mt_sm--70">
                             <div className="business-goal-right">
                                 <div className="rts-title-area business text-start pl--30">
-                                    <p className="pre-title">JUST A CONSULTANCY</p>
-                                    <h2 className="title">We know how to manage business globally</h2>
+                                    <p className="pre-title">STRATEGIC BUSINESS CONSULTING & FINANCIAL EXPERTISE</p>
+                                    <h3 className="title">Driving Business Success with Precision & Compliance</h3>
                                 </div>
                                 <div className="rts-business-goal pl--30">
                                     <div className="single-goal">
@@ -66,10 +66,9 @@ function BusinessGoalOne() {
                                             className="thumb"
                                         />
                                         <div className="goal-wrapper">
-                                            <h6 className="title">Best Business Consulting</h6>
+                                            <h6 className="title"> Expert Business Advisory</h6>
                                             <p className="disc">
-                                                Fusce condimentum mattis placerat odio donec lacus porta
-                                                torquent, mauris gravida rutrum
+                                            Providing tailored consulting solutions to enhance operational efficiency, financial management, and regulatory compliance.
                                             </p>
                                         </div>
                                     </div>
@@ -80,10 +79,9 @@ function BusinessGoalOne() {
                                             className="thumb"
                                         />
                                         <div className="goal-wrapper">
-                                            <h6 className="title">24/7 Customer Support</h6>
+                                            <h6 className="title">Excellent Customer Support</h6>
                                             <p className="disc">
-                                                Fusce condimentum mattis placerat odio donec lacus porta
-                                                torquent, mauris gravida rutrum
+                                            Ensuring seamless business operations with round-the-clock professional support and strategic guidance.
                                             </p>
                                         </div>
                                     </div>

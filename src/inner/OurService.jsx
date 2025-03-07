@@ -23,7 +23,7 @@ function OurService() {
             <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
             <ServiceTen />
             <FaqTwo />
-            <PricingThree />
+            {/* <PricingThree /> */}
 
 
             <FooterFour />

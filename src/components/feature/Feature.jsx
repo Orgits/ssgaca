@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Feature() {
     return (
@@ -6,42 +6,40 @@ function Feature() {
             {/* rts features area start */}
             <div className="rts-feature-area rts-section-gap">
                 <div className="container-fluid padding-controler plr--120">
-                    <div className="row bg-white-feature  pt--120 pb--120">
+                    <div className="row bg-white-feature pt--120 pb--120">
                         <div className="col-xl-6 col-lg-12">
                             <div className="feature-left-area">
-                                <img src="assets/images/feature/01.png" alt="" />
+                                <img src="assets/images/feature/01.png" alt="LDR Groups Feature" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-12">
                             <div className="rts-title-area feature text-start pl--30 pl_sm--0">
-                                <p className="pre-title">Boost Your Business Today</p>
+                                <p className="pre-title">Transform Your Business with Us</p>
                                 <h2 className="title feature-title">
-                                    Most Reliable Efficient <br />
-                                    Consulting Agency
+                                    Your Trusted Partner in <br />
+                                    Business Growth & Compliance
                                 </h2>
-                                <p>
-                                    Porttitor ornare fermentum aliquam pharetra ut facilisis gravida
-                                    risus suscipit feugiat fusce conubia ridiculus tristique solving
-                                    parturient natoque vulputate risu hasellus quam tincidunt posuere
-                                    aliquam accumsan
-                                </p>
+                                <span>
+                                    At <b>LDR Groups,</b> we provide strategic financial and legal consulting to help businesses thrive. 
+                                    Our expert-driven solutions ensure compliance, streamline operations, and enhance profitability. With a commitment to excellence, we empower enterprises to navigate complex regulatory landscapes with confidence.
+                                </span>
                             </div>
                             <div className="feature-one-wrapper pl--30 mt--40 pl_sm--0">
                                 <div className="single-feature-one">
                                     <i className="fal fa-check" />
-                                    <p>Fast Growing Sells</p>
+                                    <p>Accelerated Business Growth</p>
                                 </div>
                                 <div className="single-feature-one">
                                     <i className="fal fa-check" />
-                                    <p>24/7 Quality Services</p>
+                                    <p>Round-the-Clock Client Support</p>
                                 </div>
                                 <div className="single-feature-one">
                                     <i className="fal fa-check" />
-                                    <p>Expert Members</p>
+                                    <p>Industry-Leading Experts</p>
                                 </div>
                                 <div className="single-feature-one">
                                     <i className="fal fa-check" />
-                                    <p>Best Quality Services</p>
+                                    <p>Tailored Financial & Compliance Solutions</p>
                                 </div>
                             </div>
                         </div>
@@ -53,4 +51,4 @@ function Feature() {
     )
 }
 
-export default Feature
+export default Feature;

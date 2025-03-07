@@ -39,12 +39,7 @@ function TestimonialOne() {
                                         <SwiperSlide>
                                             <div className="testimonial-inner">
                                                 <p className="disc text-start">
-                                                    “Consectetur adipiscing elit velit porta sapien purus erat
-                                                    nec, a ornare laoreet sem gravida accumsan in commodo
-                                                    aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                    mauris leo magna sociosqu viverra, accumsan massa
-                                                    tristique egestas cum sodales hac lacinia feugiat
-                                                    scelerisque porttitor”
+                                                    “LDR Groups has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!””
                                                 </p>
                                                 <div className="testimonial-bottom-one">
                                                     <div className="thumbnail">
@@ -55,9 +50,9 @@ function TestimonialOne() {
                                                     </div>
                                                     <div className="details">
                                                         <a href="#">
-                                                            <h5 className="title">David Smith</h5>
+                                                            <h5 className="title">Client </h5>
                                                         </a>
-                                                        <span>JHKL Owner</span>
+                                                        <span>Company </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -65,12 +60,7 @@ function TestimonialOne() {
                                         <SwiperSlide>
                                             <div className="testimonial-inner">
                                                 <p className="disc text-start">
-                                                    “Consectetur adipiscing elit velit porta sapien purus erat
-                                                    nec, a ornare laoreet sem gravida accumsan in commodo
-                                                    aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                    mauris leo magna sociosqu viverra, accumsan massa
-                                                    tristique egestas cum sodales hac lacinia feugiat
-                                                    scelerisque porttitor”
+                                                    “LDR Groups has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!”
                                                 </p>
                                                 <div className="testimonial-bottom-one">
                                                     <div className="thumbnail">
@@ -81,9 +71,9 @@ function TestimonialOne() {
                                                     </div>
                                                     <div className="details">
                                                         <a href="#">
-                                                            <h5 className="title">David Smith</h5>
+                                                            <h5 className="title">Client</h5>
                                                         </a>
-                                                        <span>JHKL Owner</span>
+                                                        <span>Company Name</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,12 +81,7 @@ function TestimonialOne() {
                                         <SwiperSlide>
                                             <div className="testimonial-inner">
                                                 <p className="disc text-start">
-                                                    “Consectetur adipiscing elit velit porta sapien purus erat
-                                                    nec, a ornare laoreet sem gravida accumsan in commodo
-                                                    aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                    mauris leo magna sociosqu viverra, accumsan massa
-                                                    tristique egestas cum sodales hac lacinia feugiat
-                                                    scelerisque porttitor”
+                                                    “N/A”
                                                 </p>
                                                 <div className="testimonial-bottom-one">
                                                     <div className="thumbnail">
@@ -107,9 +92,9 @@ function TestimonialOne() {
                                                     </div>
                                                     <div className="details">
                                                         <a href="#">
-                                                            <h5 className="title">David Smith</h5>
+                                                            <h5 className="title">Client Name</h5>
                                                         </a>
-                                                        <span>JHKL Owner</span>
+                                                        <span>Company Name</span>
                                                     </div>
                                                 </div>
                                             </div>

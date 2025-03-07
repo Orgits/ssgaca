@@ -13,7 +13,7 @@ function CallToActionTwo() {
                                     <h4 className="title">
                                         Need Any Business Consultancy? <a href="#">Contact With Us</a>
                                     </h4>
-                                    <a className="rts-btn btn-secondary-3" href="contactus.html">
+                                    <a className="rts-btn btn-secondary-3" href="/contactus">
                                         Lets Work Together
                                     </a>
                                 </div>

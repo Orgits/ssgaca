@@ -96,6 +96,7 @@ function RouterPage() {
                     <Route path="/team-details" element={<TeamDetails />}></Route>
                     {/* <Route path="/blog-list" element={<BlogList />}></Route> */}
                     <Route path="/blog-grid" element={<BlogGrid />}></Route>
+                    <Route path="/our-service/:id" element={<OurService />} />
                     {/* <Route path="/blog-details" element={<BlogDetails />}></Route> */}
                     <Route path="/blog/:id" element={<BlogDetails />}></Route>
                     <Route path="/blog-details-default" element={<BlogDetailsDefault />}></Route>

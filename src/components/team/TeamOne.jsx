@@ -67,7 +67,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">Archer Graham</h5>
+                                            <h5 className="title">N/A</h5>
                                         </Link>
                                         <p>Founder</p>
                                     </div>
@@ -95,7 +95,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">Amelia Clover</h5>
+                                            <h5 className="title">N/A</h5>
                                         </Link>
                                         <p>Co-Founder</p>
                                     </div>
@@ -123,7 +123,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">Beckett Hayden</h5>
+                                            <h5 className="title">N/A</h5>
                                         </Link>
                                         <p>Deputy Manager</p>
                                     </div>
@@ -151,7 +151,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
+                                            <h5 className="title">N/A</h5>
                                         </Link>
                                         <p>Finance Manager</p>
                                     </div>
@@ -179,7 +179,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
+                                            <h5 className="title">N/A</h5>
                                         </Link>
                                         <p>Finance Manager</p>
                                     </div>

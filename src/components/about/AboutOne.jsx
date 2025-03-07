@@ -1,22 +1,20 @@
-
 import React, { useEffect } from 'react';
 import WOW from 'wow.js';
-
 
 function AboutOne() {
     useEffect(() => {
         const wow = new WOW({
-            boxClass: 'wow',      // default
-            animateClass: '',     // set to empty because we use custom classes
-            offset: 0,            // distance to the element when triggering the animation
-            mobile: true,         // trigger animations on mobile devices
-            live: true            // act on asynchronously loaded content
+            boxClass: 'wow',      
+            animateClass: '',     
+            offset: 0,            
+            mobile: true,         
+            live: true            
         });
         wow.init();
     }, []);
+
     return (
         <div>
-
             {/* rts about us section start */}
             <div className="rts-about-area rts-section-gap bg-about-sm-shape">
                 <div className="container">
@@ -25,14 +23,11 @@ function AboutOne() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                             <div className="rts-title-area">
                                 <p className="pre-title">More About Us</p>
-                                <h2 className="title">We Provide Best Business Solution in Town</h2>
+                                <h3 className="title">Trusted Chartered Accountants & Strategic Partners for Business Growth</h3>
                             </div>
                             <div className="about-inner">
                                 <p className="disc">
-                                    Porttitor ornare fermentum aliquam pharetra ut facilisis gravida
-                                    risus suscipit. dui feugiat fusce conubia ridiculus tristique
-                                    parturient natoque vulputate risu business solution ceter 24/7
-                                    great support
+                                    <b>LDR Groups</b> is a leading <b>Chartered Accountancy & Business Consulting Firm</b> committed to delivering <b>strategic solutions</b> for businesses worldwide. Since 2017, we have been helping businesses <b>navigate complex financial landscapes, ensure compliance, and achieve sustainable growth.</b>
                                 </p>
                                 {/* start about success area */}
                                 <div className="row about-success-wrapper">
@@ -40,30 +35,30 @@ function AboutOne() {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">24/7 Call Services Avilable</p>
+                                            <p className="details">Expert Chartered Accountants</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Great Skilled Consultant</p>
+                                            <p className="details">Comprehensive Business Consulting</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Expert Team Members</p>
+                                            <p className="details">Strategic Financial Planning</p>
                                         </div>
                                     </div>
                                     {/* left wrapper end */}
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">How to improve business</p>
+                                            <p className="details">Taxation & Compliance Experts</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Business is the best plan</p>
+                                            <p className="details">Audit & Assurance Services</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Services we provide</p>
+                                            <p className="details">Startup & Business Advisory</p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,22 +66,6 @@ function AboutOne() {
                                 {/* about founder & get in touch start */}
                                 <div className="row about-founder-wrapper align-items-center mt--40">
                                     {/* left area start */}
-                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                                        <div className="author-inner">
-                                            <a className="thumbnail" href="#">
-                                                <img
-                                                    src="assets/images/about/sm-01.png"
-                                                    alt="LDR Groups_founder"
-                                                />
-                                            </a>
-                                            <div className="founder-details">
-                                                <a href="team-details.html">
-                                                    <h6 className="title">Adrew David</h6>
-                                                </a>
-                                                <span>CEO &amp; Founder</span>
-                                            </div>
-                                        </div>
-                                    </div>
                                     {/* left area end */}
                                     {/* right founder area */}
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 mt_sm--20">
@@ -94,12 +73,12 @@ function AboutOne() {
                                             <img
                                                 className="authore-call"
                                                 src="assets/images/about/call.svg"
-                                                alt="call_founder"
+                                                alt="Call Us"
                                             />
                                             <div className="call-details">
                                                 <span>Call us anytime</span>
                                                 <a href="tel:+91 92055 44540">
-                                                    <h6 className="title">+256 21458.2146</h6>
+                                                    <h6 className="title">+91 92055 44540</h6>
                                                 </a>
                                             </div>
                                         </div>
@@ -114,8 +93,8 @@ function AboutOne() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                             <div className="about-one-thumbnail">
                                 <img
-                                    src=" assets/images/about/main/about-01.png"
-                                    alt="about-LDR Groups"
+                                    src="assets/images/about/main/about-01.png"
+                                    alt="About LDR Groups"
                                 />
                                 <img
                                     className="small-img"
@@ -124,11 +103,11 @@ function AboutOne() {
                                 />
                                 <div className="experience">
                                     <div className="left single">
-                                        <h2 className="title">25+</h2>
+                                        <h2 className="title"><b>7+</b></h2>
                                         <p className="time">Years</p>
                                     </div>
                                     <div className="right single">
-                                        <p className="disc">Of experience in consulting service</p>
+                                        <p className="disc">Of experience in financial & business consulting</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,9 +117,8 @@ function AboutOne() {
                 </div>
             </div>
             {/* rts about us section end */}
-
-        </div >
-    )
+        </div>
+    );
 }
 
-export default AboutOne
+export default AboutOne;

@@ -145,7 +145,7 @@ function FooterSeven() {
                                             <Link to={'#'}>Faq</Link>
                                         </li>
                                         <li>
-                                            <Link href="contactus.html">Contact</Link>
+                                            <Link href="/contactus">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>

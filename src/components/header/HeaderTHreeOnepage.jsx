@@ -34,7 +34,7 @@ function HeaderThree() {
                         <div className="col-lg-6">
                             <p className="top-left">
                                 Are you ready to grow up your business?{" "}
-                                <Link href="contactus.html">
+                                <Link href="/contactus">
                                     Contact Us <i className="far fa-arrow-right" />
                                 </Link>
                             </p>

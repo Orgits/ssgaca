@@ -55,10 +55,10 @@
 :root {
   --color-primary: #145886;
   --color-primary-2: #145886;
-  --color-primary-3: #F64A00;
+  --color-primary-3: #145886;
   --color-primary-4: #145886;
   --color-primary-5: #B00F0F;
-  --color-primary-6: #F64A00;
+  --color-primary-6: #145886;
   --color-primary-7: #E87556;
   --color-primary-8: #845CFF;
   --color-primary-9: #4A3BCA;
@@ -15615,7 +15615,7 @@ body.sal-disabled [data-sal|=flip] {
 }
 .header-three .header-top-right .email i {
   margin-right: 10px;
-  color: #F64A00;
+  color: #145886;
 }
 .header-three .header-top-right .email a {
   color: #1C2539;
@@ -15630,7 +15630,7 @@ body.sal-disabled [data-sal|=flip] {
 }
 .header-three .header-top-right .call i {
   margin-right: 10px;
-  color: #F64A00;
+  color: #145886;
   transform: rotate(-30deg);
 }
 .header-three .header-top-right .call a {
@@ -17419,7 +17419,7 @@ left: -600px;
   transition: var(--transition);
 }
 .rts-btn.btn-light-3 {
-  background: #f64a0026;
+  background: #14588626;
   color: var(--color-primary-3);
   border-radius: 5px;
   padding: 10px 19px;
@@ -20241,7 +20241,7 @@ header.header-home-nine {
 }
 
 .title-wrapper-twelve.center .pre-title {
-  color: #F64A00;
+  color: #145886;
   padding: 7px 16px;
   border-radius: 20px;
   border: 1px solid #E9E9E9;
@@ -21610,7 +21610,7 @@ body.thirteen-body .title-area span {
   margin-bottom: 10px;
 }
 .about-home-seven .thumbnail .experience-area span {
-  color: #F64A00;
+  color: #145886;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
@@ -21829,7 +21829,7 @@ svg.radial-progress circle.bar-static {
 }
 svg.radial-progress circle.bar--animated {
   stroke-dasharray: 219.9114857513;
-  stroke: #F64A00;
+  stroke: #145886;
   stroke-dashoffset: 219.9114857513;
   stroke-width: 3px;
   transition: 0.3s;
@@ -21892,7 +21892,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   }
 }
 .business-progress-area .right-title {
-  border-right: 3px solid #F64A00;
+  border-right: 3px solid #145886;
 }
 .business-progress-area .right-title p.disc {
   max-width: 80%;
@@ -21905,7 +21905,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   gap: 50px;
 }
 .button-area-about-12 .call-to-action span {
-  color: #F64A00;
+  color: #145886;
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
@@ -24354,7 +24354,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 .rts-business-solution-left .success-rate {
   position: absolute;
-  background: #F64A00;
+  background: #145886;
   padding: 47px;
   left: -1%;
   bottom: -13%;
@@ -27519,7 +27519,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   height: 333px;
   left: 10%;
   top: 60%;
-  background: #F64A00;
+  background: #145886;
   border-radius: 50%;
   z-index: 0;
 }
@@ -28839,7 +28839,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 
 .rts-testimonials-area-start-12 .testimonials-main-wrapper-nine {
-  background: #F64A00;
+  background: #145886;
 }
 .rts-testimonials-area-start-12 .testimonials-main-wrapper-nine p.dsic {
   color: #FFFFFF;
@@ -32763,7 +32763,7 @@ p.disc {
 }
 .index-six .progress-wrap::after {
   border-color: var(--color-primary-6);
-  box-shadow: 0px 3px 20px 6px #f64a0057;
+  box-shadow: 0px 3px 20px 6px #14588657;
   color: var(--color-primary-6);
 }
 

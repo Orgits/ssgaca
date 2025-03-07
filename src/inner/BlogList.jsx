@@ -315,12 +315,12 @@ function ProjectThree() {
                             <div className="rts-single-wized contact">
                                 <div className="wized-header">
                                     <Link href="#">
-                                        <img src="assets/images/logo/logo-2.svg" alt="Business_logo" />
+                                        <img src="assets/images/logo/logo.svg" alt="Business_logo" />
                                     </Link>
                                 </div>
                                 <div className="wized-body">
                                     <h5 className="title">Need Help? We Are Here To Help You</h5>
-                                    <Link className="rts-btn btn-primary" href="contactus.html">
+                                    <Link className="rts-btn btn-primary" to="/contactus">
                                         Contact Us
                                     </Link>
                                 </div>

@@ -48,7 +48,7 @@ function BlogGrid() {
 
                                         </div>
                                     )
-                                }).slice(4, 16)}
+                                }).slice(4, 8)}
 
                             </div>
                             {/* pagination area */}
@@ -60,10 +60,10 @@ function BlogGrid() {
                                             <button>02</button>
                                             <button>03</button>
                                             <button>04</button>
-                                            <button>
+                                            <button> 
                                                 <i className="fal fa-angle-double-right" />
                                             </button>
-                                        </div>
+                                        </div><p>“Slider inactive due to insufficient blogs.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,81 +72,8 @@ function BlogGrid() {
                         {/*rts blog wized area */}
                         <div className="col-xl-4 col-md-12 col-sm-12 col-12">
                             {/* single wized start */}
-                            <div className="rts-single-wized search">
-                                <div className="wized-header">
-                                    <h5 className="title">Search Hear</h5>
-                                </div>
-                                <div className="wized-body">
-                                    <div className="rts-search-wrapper">
-                                        <input
-                                            className="Search"
-                                            type="text"
-                                            placeholder="Enter Keyword"
-                                        />
-                                        <button>
-                                            <i className="fal fa-search" />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             {/* single wized End */}
-                            {/* single wized start */}
-                            <div className="rts-single-wized Categories">
-                                <div className="wized-header">
-                                    <h5 className="title">Categories</h5>
-                                </div>
-                                <div className="wized-body">
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Business Solution <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Solution Model
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Business Advantage
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Feature Product
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Catagory Thury
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                </div>
-                            </div>
                             {/* single wizered End */}
                             {/* single wizered start */}
                             <div className="rts-single-wized Recent-post">
@@ -250,56 +177,63 @@ function BlogGrid() {
                             </div>
                             {/* single wized End */}
                             {/* single wized start */}
-                            <div className="rts-single-wized Recent-post">
+                           <div className="rts-single-wized Categories">
                                 <div className="wized-header">
-                                    <h5 className="title">Recent Posts</h5>
+                                    <h5 className="title">Categories</h5>
                                 </div>
                                 <div className="wized-body">
-                                    <div className="gallery-inner">
-                                        <div className="row-1 single-row">
+                                    {/* single categoris */}
+                                    <ul className="single-categories">
+                                        <li>
                                             <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/01.png"
-                                                    alt="Gallery"
-                                                />
+                                                Business Solution <i className="far fa-long-arrow-right" />
                                             </Link>
+                                        </li>
+                                    </ul>
+                                    {/* single categoris End */}
+                                    {/* single categoris */}
+                                    <ul className="single-categories">
+                                        <li>
                                             <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/02.png"
-                                                    alt="Gallery"
-                                                />
+                                                Solution Model
+                                                <i className="far fa-long-arrow-right" />
                                             </Link>
+                                        </li>
+                                    </ul>
+                                    {/* single categoris End */}
+                                    {/* single categoris */}
+                                    <ul className="single-categories">
+                                        <li>
                                             <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/03.png"
-                                                    alt="Gallery"
-                                                />
+                                                Business Advantage
+                                                <i className="far fa-long-arrow-right" />
                                             </Link>
-                                        </div>
-                                        <div className="row-2 single-row">
+                                        </li>
+                                    </ul>
+                                    {/* single categoris End */}
+                                    {/* single categoris */}
+                                    <ul className="single-categories">
+                                        <li>
                                             <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/04.png"
-                                                    alt="Gallery"
-                                                />
+                                                Feature Product
+                                                <i className="far fa-long-arrow-right" />
                                             </Link>
+                                        </li>
+                                    </ul>
+                                    {/* single categoris End */}
+                                    {/* single categoris */}
+                                    <ul className="single-categories">
+                                        <li>
                                             <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/05.png"
-                                                    alt="Gallery"
-                                                />
+                                                Catagory Thury
+                                                <i className="far fa-long-arrow-right" />
                                             </Link>
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/gallery/06.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                        </div>
-                                    </div>
+                                        </li>
+                                    </ul>
+                                    {/* single categoris End */}
                                 </div>
-                            </div>
-                            {/* single wized End */}
+                            </div> 
+                            
                             {/* single wized start */}
                             <div className="rts-single-wized">
                                 <div className="wized-header">
@@ -324,12 +258,12 @@ function BlogGrid() {
                             <div className="rts-single-wized contact">
                                 <div className="wized-header">
                                     <Link href="index.html">
-                                        <img src="assets/images/logo/logo-2.svg" alt="Business_logo" />
+                                        <img src="assets/images/logo/logo.svg" alt="Business_logo" />
                                     </Link>
                                 </div>
                                 <div className="wized-body">
                                     <h5 className="title">Need Help? We Are Here To Help You</h5>
-                                    <Link className="rts-btn btn-primary" href="contactus.html">
+                                    <Link className="rts-btn btn-primary" to="/contactus">
                                         Contact Us
                                     </Link>
                                 </div>

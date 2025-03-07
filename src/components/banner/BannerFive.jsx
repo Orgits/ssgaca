@@ -15,7 +15,7 @@ function BannerFive() {
                                 <div className="banner-three-inner banner-four-inner banner-five-inner">
                                     <div className="banner-title">
                                         <span className="subtitle-banner">
-                                            <strong>WELCOME!</strong> START GROWING YOUR INSURANCE
+                                            <strong>WELCOME!</strong> START GROWING YOUR BUSINESS
                                         </span>
                                         {/* type headline start*/}
                                         <h1 className="title">
@@ -28,8 +28,8 @@ function BannerFive() {
                                         </h1>
                                     </div>
                                     <p className="disc">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
-                                        <br /> Dui feugiat fusce conubia ridiculus tristique parturient
+                                   <b> Providing expert financial and consulting solutions to drive growth and success.</b>
+                                        <br /> <b>LDR Groups empowers businesses with strategic planning and compliance support.</b>
                                     </p>
                                     <div className="button-group">
                                         <Link to={'/pricing-plane'} className="rts-btn btn-primary-3 btn-primary-4">

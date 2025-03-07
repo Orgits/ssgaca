@@ -23,12 +23,12 @@ function Counterup() {
                                 <div ref={ref} className="counter-details">
                                     {inView && ( // Only render CountUp when the element is in view
                                         <h2 className="title counter animate__animated animate__fadeInDownBig">
-                                            <CountUp start={0} end={230} delay={0} duration={1} />
+                                            <CountUp start={0} end={700} delay={0} duration={1} />
                                         </h2>
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Successful Clients</p>
                                 </div>
                             </div>
                         </div>
@@ -43,12 +43,12 @@ function Counterup() {
                                 <div ref={ref} className="counter-details">
                                     {inView && ( // Only render CountUp when the element is in view
                                         <h2 className="title counter animate__animated animate__fadeInDownBig">
-                                            <CountUp start={0} end={650} delay={0} duration={1} />
+                                            <CountUp start={0} end={1200} delay={0} duration={1} />
                                         </h2>
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Projects Completed</p>
                                 </div>
                             </div>
                         </div>
@@ -63,12 +63,12 @@ function Counterup() {
                                 <div ref={ref} className="counter-details">
                                     {inView && ( // Only render CountUp when the element is in view
                                         <h2 className="title counter animate__animated animate__fadeInDownBig">
-                                            <CountUp start={0} end={950} delay={0} duration={1} />
+                                            <CountUp start={0} end={50} delay={0} duration={1} />
                                         </h2>
 
                                     )}
 
-                                    <p className="disc">Media Activities</p>
+                                    <p className="disc">Industries Served</p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ function Counterup() {
                                         </h2>
 
                                     )}
-                                    <p className="disc">Serv Activities</p>
+                                    <p className="disc">Expert Consultants</p>
                                 </div>
                             </div>
                         </div>

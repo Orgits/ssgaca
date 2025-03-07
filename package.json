@@ -19,6 +19,7 @@
     "swiper": "^11.1.10",
     "web-vitals": "^2.1.4",
     "wow.js": "^1.2.2"
+    
   },
   "scripts": {
   "dev": "react-scripts start",

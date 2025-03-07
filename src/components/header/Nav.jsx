@@ -16,7 +16,7 @@ function Nav() {
                     </li>
 
                     <li className="has-droupdown">
-    <Link className="nav-link" to={'#'}>
+    <Link className="nav-link" to={'/our-service'}>
         Services
     </Link>
     <ul className="submenu menu-link four-columns">

@@ -35,19 +35,19 @@ function BlogGrid() {
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-user-circle" />
-                                            <span>by David Smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                         {/* single infoe end */}
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-clock" />
-                                            <span>by David Smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                         {/* single infoe end */}
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-tags" />
-                                            <span>by David Smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                         {/* single infoe end */}
                                     </div>
@@ -500,12 +500,12 @@ function BlogGrid() {
                             <div className="rts-single-wized contact">
                                 <div className="wized-header">
                                     <a href="#">
-                                        <img src="assets/images/logo/logo-2.svg" alt="Business_logo" />
+                                        <img src="assets/images/logo/logo.svg" alt="Business_logo" />
                                     </a>
                                 </div>
                                 <div className="wized-body">
                                     <h5 className="title">Need Help? We Are Here To Help You</h5>
-                                    <a className="rts-btn btn-primary" href="contactus.html">
+                                    <a className="rts-btn btn-primary" href="/contactus">
                                         Contact Us
                                     </a>
                                 </div>

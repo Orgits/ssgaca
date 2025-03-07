@@ -20,23 +20,24 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/1'} className="main-thumbnail">
                                     <img src="assets/images/blog/05.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">Solution</span>
+                                    <span className="badge-blog">LDR Groups
+                                    </span>
                                 </Link>
                                 <div className="blog-body">
                                     <div className="blog-header">
                                         <div className="left">
                                             <i className="far fa-clock" />
-                                            <span>25 Jan, 2022</span>
+                                            <span>15 Feb, 2025</span>
                                         </div>
                                         <div className="right">
                                             <i className="far fa-user" />
-                                            <span>by david smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                     </div>
                                     <div className="body">
                                         <Link to={'/blog/1'}>
                                             <h5 className="title">
-                                                The quick settle tips new ages exist working solution
+                                            New Tax Regulations: What Businesses Need to Know in 2024
                                             </h5>
                                         </Link>
                                         <Link to={'/blog/1'} className="rts-btn btn-light-3">
@@ -52,23 +53,23 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/2'} className="main-thumbnail">
                                     <img src="assets/images/blog/06.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">Solution</span>
+                                    <span className="badge-blog">LDR Groups</span>
                                 </Link>
                                 <div className="blog-body">
                                     <div className="blog-header">
                                         <div className="left">
                                             <i className="far fa-clock" />
-                                            <span>25 Jan, 2022</span>
+                                            <span>20 Feb, 2025</span>
                                         </div>
                                         <div className="right">
                                             <i className="far fa-user" />
-                                            <span>by david smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                     </div>
                                     <div className="body">
                                         <Link to={'/blog/2'}>
                                             <h5 className="title">
-                                                The quick settle tips new ages exist working solution
+                                            Strategic Business Growth: Proven Techniques for Scaling Successfully
                                             </h5>
                                         </Link>
                                         <Link to={'/blog/2'} className="rts-btn btn-light-3">
@@ -84,23 +85,23 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/3'} className="main-thumbnail">
                                     <img src="assets/images/blog/07.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">Solution</span>
+                                    <span className="badge-blog">LDR Groups</span>
                                 </Link>
                                 <div className="blog-body">
                                     <div className="blog-header">
                                         <div className="left">
                                             <i className="far fa-clock" />
-                                            <span>25 Jan, 2022</span>
+                                            <span>25 Feb, 2025</span>
                                         </div>
                                         <div className="right">
                                             <i className="far fa-user" />
-                                            <span>by david smith</span>
+                                            <span>By Admin</span>
                                         </div>
                                     </div>
                                     <div className="body">
                                         <Link to={'/blog/3'}>
                                             <h5 className="title">
-                                                The quick settle tips new ages exist working solution
+                                            How Financial Audits Can Strengthen Your Business & Boost Investor Confidence”
                                             </h5>
                                         </Link>
                                         <Link to={'/blog/3'} className="rts-btn btn-light-3">

@@ -16,7 +16,7 @@ function CounterupFour() {
                                             make your insurance better
                                         </h3>
                                     </div>
-                                    <a className="rts-btn btn-primary-5 six" href="contactus.html">
+                                    <a className="rts-btn btn-primary-5 six" href="/contactus">
                                         Lets Work Together
                                     </a>
                                 </div>

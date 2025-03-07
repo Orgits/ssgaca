@@ -89,7 +89,7 @@ function BusinessGoalThree() {
                                     </div>
                                     <div className="goal-button-wrapper mt--70">
                                         <Link
-                                            href="contactus.html"
+                                            href="/contactus"
                                             className="rts-btn btn-primary color-h-black"
                                         >
                                             Contact Us
