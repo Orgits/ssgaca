@@ -15371,6 +15371,8 @@ body.sal-disabled [data-sal|=flip] {
 @media only screen and (max-width: 479px) {
   .header-main-one .thumbnail a {
     padding: 18px 0;
+    display: block;
+  max-width: max-content;
   }
 }
 
