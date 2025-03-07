@@ -14,6 +14,7 @@ function Nav() {
                             About Us
                         </Link>
                            </li>
+                          
                     <li className="has-droupdown">
                         <Link className="nav-link" to={'/our-service'}>
                             Services
@@ -104,6 +105,11 @@ function Nav() {
                             </li>
                         </ul>
                     </li>
+                    <li >
+                        <Link className="nav-item" to={'/team'}>
+                            Our Team
+                        </Link>
+                           </li>
                     <li >
                         <Link className="nav-item" to={'/blog-grid'}>
                             Blog

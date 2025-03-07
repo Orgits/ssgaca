@@ -12,14 +12,14 @@ import FooterFour from '../components/footer/FooterFour';
 function ProjectThree() {
     const breadcrumbs = [
         { label: 'Home', link: '/' },
-        { label: 'Team Style 1' }
+        { label: 'Our Team' }
     ];
     return (
         <div className=''>
 
             <HeaderOne />
 
-            <Breadcrumb title="Team Style 1" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Our Team" breadcrumbs={breadcrumbs} />
 
 
 

@@ -16,7 +16,7 @@ const BlogGridMain = (props) => {
                 <div className="blog-info">
                     <div className="user">
                         <i className="fal fa-user-circle" />
-                        <span>by Smith</span>
+                        <span>by Admin</span>
                     </div>
                     <div className="user">
                         <i className="fal fa-tags" />

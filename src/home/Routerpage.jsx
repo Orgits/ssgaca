@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LoadTop from '../components/LoadTop';
 import BackToTop from '../components/BackToTop';
 import HomeOne from "./HomeOne";
-import TestOne from "./TestOne";
 
 // import HomeTwo from "./HomeTwo";
 // import HomeThree from "./HomeThree";
@@ -63,7 +62,7 @@ function RouterPage() {
             <Router>
                 <LoadTop />
                 <Routes>
-                    <Route path="/" element={<TestOne />}></Route>
+                    <Route path="/" element={<HomeOne />}></Route>
                     <Route path="/home-one" element={<HomeOne />}></Route>
                     {/* <Route path="/home-two" element={<HomeTwo />}></Route>
                     <Route path="/home-three" element={<HomeThree />}></Route>

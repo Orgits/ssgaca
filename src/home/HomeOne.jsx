@@ -17,6 +17,7 @@ import MapOne from "../components/map/MapOne";
 
 
 import FooterFour from "../components/footer/FooterFour";
+import FooterOne from '../components/footer/FooterOne';
 
 function HomeOne() {
   return (
@@ -41,7 +42,7 @@ function HomeOne() {
 
 
 
-      <FooterFour />
+      <FooterOne />
 
     </div>
   )
