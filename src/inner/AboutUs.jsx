@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import HeaderOne from "../components/header/HeaderOne";
 import Breadcrumb from "./Breadcrumb";
@@ -7,8 +8,6 @@ import FooterOne from "../components/footer/FooterOne";
 
 import Accordion from 'react-bootstrap/Accordion';
 import FooterFour from '../components/footer/FooterFour';
-
-
 
 function OurService() {
     const breadcrumbs = [
@@ -60,20 +59,16 @@ function OurService() {
                                     <img
                                         className="mt--110 img-1"
                                         src="assets/images/about/main/about-03.jpg"
-                                        alt="BUsiness_image"
+                                        alt="Business_image"
                                     />
                                     <img
                                         className="img-over"
                                         src="assets/images/about/main/about-04.jpg"
-                                        alt="BUsiness_image"
+                                        alt="Business_image"
                                     />
                                     <div className="goal-button-wrapper">
                                         <Link to={'#'} className="vedio-icone">
                                             <span id="play-video" className="video-play-button" onClick={openVideo}>
-                                                {/* <img
-                                                    src="assets/images/about/shape/play-btn.png"
-                                                    alt="Play btn"
-                                                /> */}
                                                 <span />
                                             </span>
                                             {isVideoOpen && (
@@ -102,41 +97,38 @@ function OurService() {
                         <div className="col-lg-6">
                             <div className="about-progress-inner">
                                 <div className="title-area">
-                                    <span>JUST A CONSULTANCY</span>
+                                    <span>PREMIER CHARTERED ACCOUNTANCY FIRM</span>
                                     <h2 className="title">
-                                        Get Consulting For Better Business Growth
+                                        Empowering Businesses with Expert Financial Guidance
                                     </h2>
                                 </div>
                                 {/* inner start */}
                                 <div className="inner">
                                     <p className="disc">
-                                        Dapibus curae risus rutrum curabitur nunc sociis nullam nisl,
-                                        aliquet quis iaculis scelerisque primis massa imperdiet, dis
-                                        senectus blandit aptent nulla cubilia sodales convallis tortor
-                                        pellentesque nulla.
+                                        LDR Groups is a premier chartered accountancy and business consulting firm, dedicated to providing strategic financial, tax, and compliance solutions for businesses of all sizes. Established in 2017, we specialize in audit & assurance, taxation, business compliance, corporate law, and financial advisory services.
                                     </p>
                                     <div className="rts-progress-one-wrapper">
                                         <div className="single-progress">
                                             <div className="progress-top">
-                                                <p className="progress-title">Business Strategy</p>
-                                                <span className="persectage">70%</span>
+                                                <p className="progress-title">Audit & Assurance</p>
+                                                <span className="persectage">95%</span>
                                             </div>
                                             <div className="meter cadetblue">
-                                                <span data-progress={70} style={{ width: 300 }} />
+                                                <span data-progress={95} style={{ width: 300 }} />
                                             </div>
                                         </div>
                                         <div className="single-progress">
                                             <div className="progress-top">
-                                                <p className="progress-title">Company Strength</p>
-                                                <span className="persectage">93%</span>
+                                                <p className="progress-title">Taxation & Compliance</p>
+                                                <span className="persectage">90%</span>
                                             </div>
                                             <div className="meter">
-                                                <span data-progress={93} style={{ width: 400 }} />
+                                                <span data-progress={90} style={{ width: 400 }} />
                                             </div>
                                         </div>
                                     </div>
                                     <Link to={'#'} className="rts-btn btn-primary">
-                                        Make an Appointment
+                                        Contact Us
                                     </Link>
                                 </div>
                                 {/* end */}
@@ -154,7 +146,7 @@ function OurService() {
                     <div className="background-service service-three row">
                         <div className="row g-5">
                             <div className="rts-title-area service-four text-center pt--40 pt_md--0 mt_sm--0 mt_md--0">
-                                <p className="pre-title">Our Services</p>
+                                <p className="pre-title">Our Expertise</p>
                                 <h2 className="title">What We Provide</h2>
                             </div>
                             {/* start single Service */}
@@ -172,10 +164,9 @@ function OurService() {
                                                 src="assets/images/service/icon/13.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Business Consultancy</h5>
+                                            <h5 className="title">Audit & Assurance</h5>
                                             <p className="disc">
-                                                Aenean augue venenatis est porttitor fames aptent lobortis
-                                                nam potenti
+                                                Ensuring financial transparency and regulatory compliance with expert audits.
                                             </p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
@@ -202,10 +193,9 @@ function OurService() {
                                                 src="assets/images/service/icon/14.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Business Appoinment</h5>
+                                            <h5 className="title">Taxation & Compliance</h5>
                                             <p className="disc">
-                                                Aenean augue venenatis est porttitor fames aptent lobortis
-                                                nam potenti
+                                                Comprehensive tax planning, filing, and GST compliance solutions.
                                             </p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
@@ -232,10 +222,9 @@ function OurService() {
                                                 src="assets/images/service/icon/15.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Consultancy Foundation</h5>
+                                            <h5 className="title">Business Consulting</h5>
                                             <p className="disc">
-                                                Aenean augue venenatis est porttitor fames aptent lobortis
-                                                nam potenti
+                                                Strategic guidance for startups, SMEs, and multinational businesses.
                                             </p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
@@ -254,12 +243,12 @@ function OurService() {
                             <div className="cta-one-inner">
                                 <div className="cta-left">
                                     <h3 className="title animated fadeIn">
-                                        Let’s discuss about how we can help make your business better
+                                        Let’s discuss how we can help your business grow and thrive.
                                     </h3>
                                 </div>
                                 <div className="cta-right">
                                     <Link className="rts-btn btn-white" to={'#'}>
-                                        Lets Work Togather
+                                        Let's Work Together
                                     </Link>
                                 </div>
                             </div>
@@ -283,7 +272,7 @@ function OurService() {
                                     <h2 className="title">
                                         We Are Experienced
                                         <span className="sm-title">
-                                            Business <span>Solution</span>
+                                            <span> Financial Experts</span>
                                         </span>
                                     </h2>
                                 </div>
@@ -310,42 +299,28 @@ function OurService() {
                                                 data-bs-parent="#accordionExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Neque partrient nascetur facilisis suscipit ridiculus agna
-                                                    lobortis imperdiet vivamus est aliquam euismod nector quam
-                                                    convallis ornare justo service lifereu visionary sources
-                                                    unleash online businesss solutions
+                                                Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <Accordion defaultActiveKey="0">
                                         <Accordion.Item eventKey="0">
-                                            <Accordion.Header><span>01. </span> What should i included my personal
-                                                details?</Accordion.Header>
+                                            <Accordion.Header><span>01. </span> What services does LDR Groups offer?</Accordion.Header>
                                             <Accordion.Body>
-                                                Neque partrient nascetur facilisis suscipit ridiculus agna
-                                                lobortis imperdiet vivamus est aliquam euismod nector quam
-                                                convallis ornare justo service lifereu visionary sources
-                                                unleash online businesss solutions
+                                            LDR Groups provides a wide range of services, including audit & assurance, taxation, GST compliance, business consulting, corporate law advisory, financial management, and international taxation. We also assist startups, SMEs, and large enterprises with legal and regulatory compliance.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
-                                            <Accordion.Header><span>02. </span> Where i can find my business growth
-                                                result?</Accordion.Header>
+                                            <Accordion.Header><span>02. </span> How can LDR Groups help my business grow?</Accordion.Header>
                                             <Accordion.Body>
-                                                Neque partrient nascetur facilisis suscipit ridiculus agna
-                                                lobortis imperdiet vivamus est aliquam euismod nector quam
-                                                convallis ornare justo service lifereu visionary sources
-                                                unleash online businesss solutions
+                                            Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
-                                            <Accordion.Header><span>03. </span> Did you get any business consultant?</Accordion.Header>
+                                            <Accordion.Header><span>03. </span> How do I get started with LDR Groups?</Accordion.Header>
                                             <Accordion.Body>
-                                                Neque partrient nascetur facilisis suscipit ridiculus agna
-                                                lobortis imperdiet vivamus est aliquam euismod nector quam
-                                                convallis ornare justo service lifereu visionary sources
-                                                unleash online businesss solutions
+                                            You can contact us via phone, email, or our website contact form to schedule a consultation. Our team will assess your business needs and provide customized solutions to help you achieve your financial and operational goals. 🚀
                                             </Accordion.Body>
                                         </Accordion.Item>
                                     </Accordion>
