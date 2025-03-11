@@ -109,7 +109,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 <Link href="#">
                                     <i className="fab fa-instagram" />
                                 </Link>
-                                <Link href="#">
+                                <Link href="https://wa.me/9205544540">
                                     <i className="fab fa-whatsapp" />
                                 </Link>
                             </div>
