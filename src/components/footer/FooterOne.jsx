@@ -1,226 +1,191 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 function FooterOne() {
     return (
         <div>
-
-            {/* rts footer area start */}
-            <div className="rts-footer-area footer-one rts-section-gapTop bg-footer-one" id='f-contact'>
-                <div className="container bg-shape-f1">
-                    {/* footer call to action area */}
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="rts-cta-wrapper">
-                                <div className="background-cta">
-                                    <div className="row">
-                                        {/* cta-left */}
-                                        <div className="col-lg-6">
-                                            <div className="cta-left-wrapepr">
-                                                <p className="cta-disc">Latest Business Ideas</p>
-                                                <h3 className="title">Sign Up Newsletter</h3>
+            {/* rts footer three area start */}
+            <div className="rts-footer-area footer-three footer-four rts-section-gapTop footer-bg-2" id='f-contact'>
+                <div className="container pb--100 pb_sm--40">
+                    <div className="row g-5">
+                        <div className="col-xl-3 col-lg-6">
+                            <div className="footer-three-single-wized left">
+                                <a href="index" className="logo_footer">
+                                    <img src="assets/images/logo/logo.svg" alt="Logo-image" />
+                                </a>
+                                <p className="disc">
+                                LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
+                                </p>
+                                <ul className="social-three-wrapper">
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <i class="fad fa-times"></i>
+                                        </a>
+                                        </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-linkedin-in" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://wa.me/9205544540">
+                                            <i className="fab fa-whatsapp" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        {/* footer three mid area */}
+                        <div className="col-xl-6 col-lg-6">
+                            <div className="row">
+                                {/* footer mid area left */}
+                                <div className="col-lg-6">
+                                    <div className="footer-three-single-wized mid-left">
+                                        <h5 className="title">Office Information</h5>
+                                        <div className="body">
+                                            <div className="info-wrapper">
+                                                <div className="single">
+                                                    <ul className="icon">
+                                                        <li>
+                                                            <i className="fas fa-phone-alt" />
+                                                        </li>
+                                                    </ul>
+                                                    <div className="info">
+                                                        <span>Call Us 24/7</span>
+                                                        <a href="#">+91 92055 44540</a>
+                                                    </div>
+                                                </div>
+                                                <div className="single">
+                                                    <ul className="icon">
+                                                        <li>
+                                                            <i className="far fa-envelope" />
+                                                        </li>
+                                                    </ul>
+                                                    <div className="info">
+                                                        <span>Work with us</span>
+                                                        <a href="mailto:Office@ldrgroups.com">Office@ldrgroups.com</a>
+                                                    </div>
+                                                </div>
+                                                <div className="single">
+                                                    <ul className="icon">
+                                                        <li>
+                                                            <i className="fas fa-map-marker-alt" />
+                                                        </li>
+                                                    </ul>
+                                                    <div className="info">
+                                                        <span>Our Location</span>
+                                                        <a href="#">
+                                                           7th Floor, Office No. 74D,  <br/>Himalaya House KG Marg Area, ND - 110001
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        {/* cta left end */}
-                                        <div className="col-lg-6">
-                                            {/* cta right */}
-                                            <form className="cta-input-arae">
-                                                <input
-                                                    type="email"
-                                                    name="email"
-                                                    placeholder="Enter Email Address"
-                                                    required=""
-                                                />
-                                                <button type="submit" className="rts-btn btn-primary">
-                                                    Subscribe Now
-                                                </button>
-                                            </form>
-                                            {/* cta right End */}
+                                    </div>
+                                </div>
+                                {/* footer mid area left end */}
+                                {/* footer mid area right */}
+                                <div className="col-lg-6">
+                                    <div className="footer-three-single-wized mid-right">
+                                        <h5 className="title">Get Updates</h5>
+                                        <div className="body">
+                                            <div className="update-wrapper">
+                                                <p className="disc">
+                                                    Sign up for our latest news &amp; articles. We won’t give
+                                                    you spam mails.
+                                                </p>
+                                                <form className="email-footer-area">
+                                                    <input
+                                                        type="email"
+                                                        placeholder="Enter Email Address"
+                                                        required=""
+                                                    />
+                                                    <button type="submit">
+                                                        <i className="fas fa-location-arrow" />
+                                                    </button>
+                                                </form>
+                                                <div className="note-area">
+                                                    <p>
+                                                        <span>Note:</span> We do not publish your email
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+                                {/* footer mid area right end */}
+                            </div>
+                        </div>
+                        {/* footer three mid area ENd */}
+                        <div className="col-xl-3 col-lg-6">
+                            <div className="footer-three-single-wized right">
+                                <h5 className="title">Instagram Posts</h5>
+                                <div className="body">
+                                    <div className="footer-gallery-inner">
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/01.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/02.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/03.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/04.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/05.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/images/footer/three-gallery/06.png"
+                                                alt="Footer-gallery"
+                                            />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* footer call to action area End */}
-                    {/* rts footer area */}
-                    <div className="row pt--120 pt_sm--80 pb--80 pb_sm--40">
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12">
-                            <div className="footer-one-single-wized">
-                                <div className="wized-title">
-                                    <h5 className="title">Quick Links</h5>
-                                    <img
-                                        src="/assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
-                                    />
-                                </div>
-                                <div className="quick-link-inner">
-                                    <ul className="links">
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> Forum Support
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> Help &amp; FAQ
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> Contact Us
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> Pricing &amp; Plans
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> Cookie Policy
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    <ul className="links margin-left-70">
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> About Us
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" /> My Account
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" />
-                                                Our Company
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'#'}>
-                                                <i className="far fa-arrow-right" />
-                                                Service
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        {/* footer mid area */}
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12">
-                            <div className="footer-one-single-wized mid-bg">
-                                <div className="wized-title">
-                                    <h5 className="title">Opening Hours</h5>
-                                    <img
-                                        src="/assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
-                                    />
-                                </div>
-                                <div className="opening-time-inner">
-                                    <div className="single-opening">
-                                        <p className="day">Week Days</p>
-                                        <p className="time">09.00 - 24:00</p>
-                                    </div>
-                                    <div className="single-opening">
-                                        <p className="day">Saturday</p>
-                                        <p className="time">08:00 - 03.00</p>
-                                    </div>
-                                    <div className="single-opening mb--30 mb_sm--10">
-                                        <p className="day">Sunday</p>
-                                        <p className="time">Day Off</p>
-                                    </div>
-                                    <Link to={'/contactus'} className="rts-btn btn-primary contact-us">
-                                        Contact Us
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        {/* footer mid area end */}
-                        {/* footer end area post */}
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12">
-                            <div className="footer-one-single-wized margin-left-65">
-                                <div className="wized-title">
-                                    <h5 className="title">Popular Updates</h5>
-                                    <img
-                                        src="/assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
-                                    />
-                                </div>
-                                <div className="post-wrapper">
-                                    {/* single post */}
-                                    <div className="single-footer-post mb--30">
-                                        <div className="left-thumbnail">
-                                            <img
-                                                src="/assets/images/footer/post/01.png"
-                                                alt="LDR Groups_business-post"
-                                            />
-                                        </div>
-                                        <div className="post-right">
-                                            <p>
-                                                {" "}
-                                                <i className="fal fa-clock" /> 15th April, 2024
-                                            </p>
-                                            <Link to={'/blog-details-default'}>
-                                                <h6 className="title">
-                                                    Best Business Ideas For Getting Solution
-                                                </h6>
-                                            </Link>
-                                            <Link className="red-more" to={'/blog-details-default'}>
-                                                Read More
-                                                <i className="far fa-arrow-right" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    {/* single post End */}
-                                    {/* single post */}
-                                    <div className="single-footer-post">
-                                        <div className="left-thumbnail">
-                                            <img
-                                                src="/assets/images/footer/post/02.png"
-                                                alt="LDR Groups_business-post"
-                                            />
-                                        </div>
-                                        <div className="post-right">
-                                            <p>
-                                                {" "}
-                                                <i className="fal fa-clock" /> 15th April, 2022
-                                            </p>
-                                            <Link to={'/blog-details-default'}>
-                                                <h6 className="title">
-                                                    Best Business Ideas For Getting Solution
-                                                </h6>
-                                            </Link>
-                                            <Link className="red-more" to={'/blog-details-default'}>
-                                                Read More
-                                                <i className="far fa-arrow-right" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    {/* single post End */}
-                                </div>
-                            </div>
-                        </div>
-                        {/* footer end area post end*/}
-                    </div>
-                    {/* rts footer area End */}
                 </div>
-                {/* copyright area start */}
-                <div className="rts-copyright-area">
+                <div className="copyright-area">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <div className="text-center">
-                                    <p>LDR Groups - Copyright 2025. All rights reserved.</p>
-                                </div>
+                                <p className="disc text-center ptb--25">
+                                    LDR Groups - Copyright 2025. All rights reserved.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* copyright area end */}
             </div>
-            {/* rts footer area end */}
+            {/* rts footer three area end */}
 
         </div>
     )
