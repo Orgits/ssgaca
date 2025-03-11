@@ -37,7 +37,7 @@ function FooterFour() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://wa.me/9205544540">
                                             <i className="fab fa-whatsapp" />
                                         </a>
                                     </li>

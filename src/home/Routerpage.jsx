@@ -41,17 +41,6 @@ import BlogDetails from '../inner/BlogDetails';
 import BlogDetailsDefault from '../inner/BlogDetailsDefault';
 import ContactUs from '../inner/ContactUs';
 
-// onepage
-// import OnepageOne from '../onepage/OnepageOne';
-// import OnepageTwo from '../onepage/OnepageTwo';
-// import OnepageThree from '../onepage/OnepageThree';
-// import OnepageFour from '../onepage/OnepageFour';
-// import OnepageFIve from '../onepage/OnepageFIve';
-// import OnepageSix from '../onepage/OnepageSix';
-// import OnepageSeven from '../onepage/OnepageSeven';
-// import OnepageEight from '../onepage/OnepageEight';
-// import OnepageNine from '../onepage/OnepageNine';
-// import OnepageTen from '../onepage/OnepageTen';
 
 
 

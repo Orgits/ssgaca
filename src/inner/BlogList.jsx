@@ -158,7 +158,7 @@ function ProjectThree() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href="#">
                                                 <h6 className="title">
@@ -181,7 +181,7 @@ function ProjectThree() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href="#">
                                                 <h6 className="title">
@@ -204,7 +204,7 @@ function ProjectThree() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href="#">
                                                 <h6 className="title">
@@ -227,7 +227,7 @@ function ProjectThree() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href="#">
                                                 <h6 className="title">

@@ -26,13 +26,13 @@ function ServiceOne() {
                                         <img src="assets/images/service/icon/01.svg" alt="Audit & Assurance" />
                                     </div>
                                     <div className="service-details">
-                                        <Link to={'/service-details/1'}>
+                                        <Link to={'/service-details/'}>
                                             <h5 className="title">Audit & Assurance</h5>
                                         </Link>
                                         <p className="disc">
                                             Ensure financial accuracy and compliance with our expert audit services.
                                         </p>
-                                        <Link className="rts-read-more btn-primary" to={'/service-details/1'}>
+                                        <Link className="rts-read-more btn-primary" to={'/service-details/'}>
                                             <i className="far fa-arrow-right" /> Read More
                                         </Link>
                                     </div>
@@ -46,13 +46,13 @@ function ServiceOne() {
                                         <img src="assets/images/service/icon/02.svg" alt="Taxation Services" />
                                     </div>
                                     <div className="service-details">
-                                        <Link to={'/service-details/2'}>
+                                        <Link to={'/service-details'}>
                                             <h5 className="title">Taxation Services</h5>
                                         </Link>
                                         <p className="disc">
                                             Expert solutions for corporate and individual tax compliance and planning.
                                         </p>
-                                        <Link className="rts-read-more btn-primary" to={'/service-details/2'}>
+                                        <Link className="rts-read-more btn-primary" to={'/service-details'}>
                                             <i className="far fa-arrow-right" /> Read More
                                         </Link>
                                     </div>
@@ -66,13 +66,13 @@ function ServiceOne() {
                                         <img src="assets/images/service/icon/03.svg" alt="Corporate Law & Compliance" />
                                     </div>
                                     <div className="service-details">
-                                        <Link to={'/service-details/3'}>
+                                        <Link to={'/service-details/'}>
                                             <h5 className="title">Corporate Law & Compliance</h5>
                                         </Link>
                                         <p className="disc">
                                             Legal advisory and compliance solutions for businesses of all sizes.
                                         </p>
-                                        <Link className="rts-read-more btn-primary" to={'/service-details/3'}>
+                                        <Link className="rts-read-more btn-primary" to={'/service-details/'}>
                                             <i className="far fa-arrow-right" /> Read More
                                         </Link>
                                     </div>
@@ -86,13 +86,13 @@ function ServiceOne() {
                                         <img src="assets/images/service/icon/04.svg" alt="Business Advisory" />
                                     </div>
                                     <div className="service-details">
-                                        <Link to={'/service-details/4'}>
+                                        <Link to={'/service-details/'}>
                                             <h5 className="title">Business Advisory</h5>
                                         </Link>
                                         <p className="disc">
                                             Strategic consulting for business expansion, growth, and sustainability.
                                         </p>
-                                        <Link className="rts-read-more btn-primary" to={'/service-details/4'}>
+                                        <Link className="rts-read-more btn-primary" to={'/service-details/'}>
                                             <i className="far fa-arrow-right" /> Read More
                                         </Link>
                                     </div>

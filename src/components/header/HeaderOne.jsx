@@ -97,7 +97,7 @@ function HeaderOne() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="mr--0" to={'#'}>
+                                            <Link className="mr--0" to={'https://wa.me/9205544540'}>
                                                 <i className="fab fa-whatsapp" />
                                             </Link>
                                         </li>

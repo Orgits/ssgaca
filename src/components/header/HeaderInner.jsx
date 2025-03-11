@@ -299,7 +299,7 @@ function HeaderInner() {
                                                 <a className="nav-link" href="#">
                                                     Blog
                                                 </a>
-                                                <ul className="submenu">
+                                                {/* <ul className="submenu">
                                                     <li>
                                                         <a href="blog-list.html">Blog List</a>
                                                     </li>
@@ -309,7 +309,7 @@ function HeaderInner() {
                                                     <li>
                                                         <a href="blog-details.html">Blog Details</a>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li className="has-droupdown">
                                                 <a className="nav-link" href="#">

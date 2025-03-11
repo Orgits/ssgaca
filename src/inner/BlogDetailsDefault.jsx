@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import HeaderOne from "../components/header/HeaderOne";
 
-import FooterOne from "../components/footer/FooterOne";
+import FooterOne from "../components/footer/FooterFour";
 import Breadcrumb from "./Breadcrumb";
 
 function BlogGrid() {
@@ -211,7 +211,7 @@ function BlogGrid() {
                                         </div>
                                         <div className="author-details team">
                                             <span>Brand Designer</span>
-                                            <h5>Angelina H. Dekato</h5>
+                                            <h5>N/A</h5>
                                             <p className="disc">
                                                 Nullam varius luctus pharetra ultrices volpat facilisis
                                                 donec tortor, nibhkisys habitant curabitur at nunc nisl
@@ -343,7 +343,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <a className="post-title" href="#">
                                                 <h6 className="title">
@@ -366,7 +366,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <a className="post-title" href="#">
                                                 <h6 className="title">
@@ -389,7 +389,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <a className="post-title" href="#">
                                                 <h6 className="title">
@@ -412,7 +412,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <a className="post-title" href="#">
                                                 <h6 className="title">
@@ -479,7 +479,7 @@ function BlogGrid() {
                             {/* single wizered start */}
                             <div className="rts-single-wized">
                                 <div className="wized-header">
-                                    <h5 className="title">Popular Tags</h5>
+                                    <h5 className="title">Popular</h5>
                                 </div>
                                 <div className="wized-body">
                                     <div className="tags-wrapper">

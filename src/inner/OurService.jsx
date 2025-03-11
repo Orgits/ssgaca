@@ -7,7 +7,7 @@ import PricingThree from "../components/pricing/PricingThree";
 import BlogThree from "../components/blog/BlogThree";
 import ContactForm from "../components/contactform/ContactForm";
 
-import FooterOne from "../components/footer/FooterOne";
+// import FooterOne from "../components/footer/FooterOne";
 import FooterFour from '../components/footer/FooterFour';
 
 function OurService() {

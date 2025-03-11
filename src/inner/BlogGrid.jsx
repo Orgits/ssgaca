@@ -1,10 +1,11 @@
 import React from 'react';
+// import React, { useState, useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
 
 import HeaderOne from "../components/header/HeaderOne";
 import post from '../data/post.json';
-import FooterOne from "../components/footer/FooterOne";
+
 import Breadcrumb from "./Breadcrumb";
 import BlogListMain from './BlogListMain';
 import FooterFour from '../components/footer/FooterFour';
@@ -94,7 +95,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -104,52 +105,8 @@ function BlogGrid() {
                                         </div>
                                     </div>
                                     {/* recent-post End */}
-                                    {/* recent-post */}
-                                    <div className="recent-post-single">
-                                        <div className="thumbnail">
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/recent-post/02.png"
-                                                    alt="Blog_post"
-                                                />
-                                            </Link>
-                                        </div>
-                                        <div className="content-area">
-                                            <div className="user">
-                                                <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
-                                            </div>
-                                            <Link className="post-title" to={'#'}>
-                                                <h6 className="title">
-                                                    We would love to share a similar experience
-                                                </h6>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    {/* recent-post End */}
-                                    {/* recent-post */}
-                                    <div className="recent-post-single">
-                                        <div className="thumbnail">
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/recent-post/03.png"
-                                                    alt="Blog_post"
-                                                />
-                                            </Link>
-                                        </div>
-                                        <div className="content-area">
-                                            <div className="user">
-                                                <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
-                                            </div>
-                                            <Link className="post-title" to={'#'}>
-                                                <h6 className="title">
-                                                    We would love to share a similar experience
-                                                </h6>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    {/* recent-post End */}
+                                   
+                                  
                                     {/* recent-post */}
                                     <div className="recent-post-single">
                                         <div className="thumbnail">
@@ -163,7 +120,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -192,24 +149,7 @@ function BlogGrid() {
                                     </ul>
                                     {/* single categoris End */}
                                     {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Solution Model
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Business Advantage
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
+                                   
                                     {/* single categoris End */}
                                     {/* single categoris */}
                                     <ul className="single-categories">
@@ -235,24 +175,7 @@ function BlogGrid() {
                             </div> 
                             
                             {/* single wized start */}
-                            <div className="rts-single-wized">
-                                <div className="wized-header">
-                                    <h5 className="title">Popular Tags</h5>
-                                </div>
-                                <div className="wized-body">
-                                    <div className="tags-wrapper">
-                                        <Link to={'#'}>Services</Link>
-                                        <Link to={'#'}>Business</Link>
-                                        <Link to={'#'}>Growth</Link>
-                                        <Link to={'#'}>Finance</Link>
-                                        <Link to={'#'}>UI/UX Design</Link>
-                                        <Link to={'#'}>Solution</Link>
-                                        <Link to={'#'}>Speed</Link>
-                                        <Link to={'#'}>Strategy</Link>
-                                        <Link to={'#'}>Technology</Link>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             {/* single wized End */}
                             {/* single wized start */}
                             <div className="rts-single-wized contact">

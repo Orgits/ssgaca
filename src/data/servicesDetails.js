@@ -1,4 +1,5 @@
-[
+const servicesData = [ 
+    [
     {
         "id": 1,
         "thumb": "AUDIT AND ASSURANCE.png",
@@ -300,3 +301,5 @@
         "btnText": "Read More"
     }
 ]
+];
+export default servicesData;

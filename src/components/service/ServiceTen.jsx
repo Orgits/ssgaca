@@ -14,7 +14,7 @@ function ServiceTen() {
                         {/* Service 1 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/1'} className="thumbnail">
+                                <Link to={'/service-details/1'} >
                                     <img src="/assets/images/service/AUDIT AND ASSURANCE.png" alt="Audit & Assurance" />
                                 </Link>
                                 <div className="body-content">
@@ -32,7 +32,7 @@ function ServiceTen() {
                         {/* Service 2 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/2'} className="thumbnail">
+                                <Link to={'/service-details/2'} >
                                     <img src="/assets/images/service/Reports & Certification.png" alt="Reports & Certification" />
                                 </Link>
                                 <div className="body-content">
@@ -50,7 +50,7 @@ function ServiceTen() {
                         {/* Service 3 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/3'} className="thumbnail">
+                                <Link to={'/service-details/3'} >
                                     <img src="/assets/images/service/Outsourcing Support Service.png" alt="Outsourcing Support" />
                                 </Link>
                                 <div className="body-content">
@@ -70,7 +70,7 @@ function ServiceTen() {
                         {/* Service 5 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/5'} className="thumbnail">
+                                <Link to={'/service-details/5'} >
                                     <img src="/assets/images/service/FEMA Advisory.png" alt="FEMA Advisory" />
                                 </Link>
                                 <div className="body-content">
@@ -88,7 +88,7 @@ function ServiceTen() {
                         {/* Service 6 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/6'} className="thumbnail">
+                                <Link to={'/service-details/6'} >
                                     <img src="/assets/images/service/Corporate Law.png" alt="Corporate Law" />
                                 </Link>
                                 <div className="body-content">
@@ -131,7 +131,7 @@ function ServiceTen() {
                         ].map((service, index) => (
                             <div key={index + 7} className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                                 <div className="service-two-inner">
-                                    <Link to={`/service-details/${index + 1}`} className="thumbnail">
+                                    <Link to={`/service-details/${index + 1}`} >
                                         <img src={`/assets/images/service/${service}.png`} alt={service} />
                                     </Link>
                                     <div className="body-content">

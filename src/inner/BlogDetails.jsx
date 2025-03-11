@@ -1,11 +1,15 @@
-import { Link, useParams, } from 'react-router-dom';
-
+import React from 'react';
+import { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import HeaderOne from "../components/header/HeaderOne";
-
-import FooterOne from "../components/footer/FooterOne";
+import FooterFour from "../components/footer/FooterFour";
 import Breadcrumb from "./Breadcrumb";
 import post from '../data/post.json';
+
+
+
 
 function BlogGrid() {
     const breadcrumbs = [
@@ -18,12 +22,21 @@ function BlogGrid() {
     if (!blogPost) {
         return <div>Post not found!</div>
     }
+    // // test start
+    const currentUrl = encodeURIComponent(window.location.href);
+    const shareLinks = {
+        facebook: `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`,
+        twitter: `https://twitter.com/intent/tweet?url=${currentUrl}`,
+        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}`,
+        whatsapp: `https://api.whatsapp.com/send?text=${currentUrl}`,
+    };
+    // //   test end
     return (
         <div className=''>
 
             <HeaderOne />
 
-            <Breadcrumb title="Blog Details" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Blogs" breadcrumbs={breadcrumbs} />
 
             {/* rts blog mlist area */}
             <div className="rts-blog-list-area rts-section-gap">
@@ -42,143 +55,26 @@ function BlogGrid() {
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-user-circle" />
-                                            <span>By Admin</span>
+                                            <span>By LDR GROUPS</span>
                                         </div>
                                         {/* single infoe end */}
-                                        {/* single info */}
-                                        <div className="single">
-                                            <i className="far fa-clock" />
-                                            <span>By Admin</span>
-                                        </div>
-                                        {/* single infoe end */}
+                                        
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-tags" />
-                                            <span>By Admin</span>
+                                            <span>Date {blogPost.publishedDate}</span>
                                         </div>
                                         {/* single infoe end */}
                                     </div>
                                     <h3 className="title">{blogPost.title}</h3>
                                     <p className="disc para-1">
-                                        Collaboratively pontificate bleeding edge resources with
-                                        inexpensive methodologies globally initiate multidisciplinary
-                                        compatible architectures pidiously repurpose leading edge growth
-                                        strategies with just in time web readiness communicate timely
-                                        meta services
-                                    </p>
-                                    <p className="disc">
-                                        Onubia semper vel donec torquent fusce mauris felis aptent
-                                        lacinia nisl, lectus himenaeos euismod molestie iaculis interdum
-                                        in laoreet condimentum dictum, quisque quam risus sollicitudin
-                                        gravida ut odio per a et. Gravida maecenas lobortis suscipit mus
-                                        sociosqu convallis, mollis vestibulum donec aliquam risus sapien
-                                        ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                                        platea iaculis posuere per mauris, eros porta blandit curabitur
-                                        ullamcorper varius
+                                        {blogPost.descripTion}
                                     </p>
                                     {/* quote area start */}
-                                    <div className="rts-quote-area text-center">
-                                        <h5 className="title">
-                                            “Placerat pretium tristique mattis tellus accuan metus
-                                            dictumst vivamus odio nulla fusce auctor into suscipit
-                                            habitasse class congue potenti iaculis”
-                                        </h5>
-                                        <Link to={'#'} className="name">
-                                            Daniel X. Horrar
-                                        </Link>
-                                        <span>Author</span>
-                                    </div>
                                     {/* quote area end */}
-                                    <p className="disc">
-                                        Ultrices iaculis commodo parturient euismod pulvinar donec cum
-                                        eget a, accumsan viverra cras praesent cubilia dignissim ad
-                                        rhoncus. Gravida maecenas lobortis suscipit mus sociosqu
-                                        convallis, mollis vestibulum donec aliquam risus sapien
-                                        ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                                        platea iaculis posuere per mauris, eros porta blandit curabitur
-                                        ullamcorper varius, nostra ante risus egestas suscipit. Quisque
-                                        interdum nec parturient facilisis nunc ac quam, ad est cubilia
-                                        mauris himenaeos nascetur vestibulum.
-                                    </p>
-                                    <div className="row g-5">
-                                        <div className="col-lg-6 col-md-6">
-                                            <div className="thumbnail details">
-                                                <img
-                                                    src="/assets/images/blog/details/01.jpg"
-                                                    alt="LDR Groups_buseness"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6">
-                                            <div className="thumbnail details">
-                                                <img
-                                                    src="/assets/images/blog/details/02.jpg"
-                                                    alt="LDR Groups_buseness"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h4 className="title mt--40 mt_sm--20">
-                                        Ultimate Business Strategy Solution
-                                    </h4>
-                                    <p className="disc mb--25">
-                                        Gravida maecenas lobortis suscipit mus sociosqu convallis,
-                                        mollis vestibulum donec aliquam risus sapien ridiculus, nulla
-                                        sollicitudin eget in venenatis. Tortor montes platea iaculis
-                                        posuere per mauris, eros porta blandit curabitur ullamcorper
-                                        varius nostra ante risus egestas.
-                                    </p>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-5">
-                                            <div className="thumbnail details mb_sm--15">
-                                                <img
-                                                    src="/assets/images/blog/details/03.jpg"
-                                                    alt="LDR Groups_buseness"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-7">
-                                            <div className="check-area-details">
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>How will activities traditional manufacturing</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>All these digital and projects aim to enhance</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>I monitor my software that takes screenshots</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>Laoreet dolore niacin sodium glutimate</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>Minim veniam sodium glutimate nostrud</span>
-                                                </div>
-                                                {/* single check End */}
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <p className="disc mt--30">
-                                        Cubilia hendrerit luctus sem aptent curae gravida maecenas
-                                        eleifend nunc nec vitae morbi sodales fusce tristique aenean
-                                        habitasse mattis sociis feugiat conubia mus auctor praesent urna
-                                        tincidunt taciti dui lobortis nullam. Mattis placerat feugiat
-                                        ridiculus sed a per curae fermentum aenean facilisi, vitae urna
-                                        imperdiet ac mauris non inceptos luctus hac odio.
+                                      <b> Subscribe to Newsletter for more updates </b>
                                     </p>
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6 col-md-12">
@@ -194,37 +90,19 @@ function BlogGrid() {
                                         <div className="col-lg-6 col-md-12">
                                             <div className="details-share">
                                                 <h6>Share:</h6>
-                                                <button>
+                                                <button onClick={() => window.open(shareLinks.facebook, "https://ldrgroups.com/blog/")}>
                                                     <i className="fab fa-facebook-f" />
                                                 </button>
-                                                <button>
+                                                <button onClick={() => window.open(shareLinks.twitter, "_blank")}>
                                                     <i className="fab fa-twitter" />
                                                 </button>
-                                                <button>
-                                                    <i className="fab fa-instagram" />
-                                                </button>
-                                                <button>
+                                                <button onClick={() => window.open(shareLinks.linkedin, "_blank")}>
                                                     <i className="fab fa-linkedin-in" />
                                                 </button>
+                                                <button onClick={() => window.open(shareLinks.whatsapp, "_blank")}>
+                                                    <i className="fab fa-whatsapp" />
+                                                </button>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="author-area">
-                                        <div className="thumbnail details mb_sm--15">
-                                            <img
-                                                src="/assets/images/blog/details/author.jpg"
-                                                alt="LDR Groups_buseness"
-                                            />
-                                        </div>
-                                        <div className="author-details team">
-                                            <span>Brand Designer</span>
-                                            <h5>Angelina H. Dekato</h5>
-                                            <p className="disc">
-                                                Nullam varius luctus pharetra ultrices volpat facilisis
-                                                donec tortor, nibhkisys habitant curabitur at nunc nisl
-                                                magna ac rhoncus vehicula sociis tortor nist hendrerit
-                                                molestie integer.
-                                            </p>
                                         </div>
                                     </div>
                                     <div className="replay-area-details">
@@ -254,83 +132,8 @@ function BlogGrid() {
                         {/* rts-blog post end area */}
                         {/*rts blog wizered area */}
                         <div className="col-xl-4 col-md-12 col-sm-12 col-12">
-                            {/* single wizered start */}
-                            <div className="rts-single-wized search">
-                                <div className="wized-header">
-                                    <h5 className="title">Search Hear</h5>
-                                </div>
-                                <div className="wized-body">
-                                    <div className="rts-search-wrapper">
-                                        <input
-                                            className="Search"
-                                            type="text"
-                                            placeholder="Enter Keyword"
-                                        />
-                                        <button>
-                                            <i className="fal fa-search" />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* single wizered End */}
-                            {/* single wizered start */}
-                            <div className="rts-single-wized Categories">
-                                <div className="wized-header">
-                                    <h5 className="title">Categories</h5>
-                                </div>
-                                <div className="wized-body">
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Business Solution <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Strategy Growth
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Finance Solution
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Investment Policy
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                    {/* single categoris */}
-                                    <ul className="single-categories">
-                                        <li>
-                                            <Link to={'#'}>
-                                                Tax Managment
-                                                <i className="far fa-long-arrow-right" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                    {/* single categoris End */}
-                                </div>
-                            </div>
-                            {/* single wizered End */}
+
+                            
                             {/* single wizered start */}
                             <div className="rts-single-wized Recent-post">
                                 <div className="wized-header">
@@ -350,7 +153,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -373,7 +176,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -396,7 +199,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -419,7 +222,7 @@ function BlogGrid() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" to={'#'}>
                                                 <h6 className="title">
@@ -429,57 +232,6 @@ function BlogGrid() {
                                         </div>
                                     </div>
                                     {/* recent-post End */}
-                                </div>
-                            </div>
-                            {/* single wizered End */}
-                            {/* single wizered start */}
-                            <div className="rts-single-wized Recent-post">
-                                <div className="wized-header">
-                                    <h5 className="title">Gallery Posts</h5>
-                                </div>
-                                <div className="wized-body">
-                                    <div className="gallery-inner">
-                                        <div className="row-1 single-row">
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/01.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/02.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/03.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                        </div>
-                                        <div className="row-2 single-row">
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/04.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/05.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                            <Link to={'#'}>
-                                                <img
-                                                    src="/assets/images/blog/details/gallery/06.png"
-                                                    alt="Gallery"
-                                                />
-                                            </Link>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             {/* single wizered End */}
@@ -494,11 +246,7 @@ function BlogGrid() {
                                         <Link to={'#'}>Business</Link>
                                         <Link to={'#'}>Growth</Link>
                                         <Link to={'#'}>Finance</Link>
-                                        <Link to={'#'}>UI/UX Design</Link>
-                                        <Link to={'#'}>Solution</Link>
-                                        <Link to={'#'}>Speed</Link>
-                                        <Link to={'#'}>Strategy</Link>
-                                        <Link to={'#'}>Technology</Link>
+                                        <Link to={'#'}>Investment</Link>
                                     </div>
                                 </div>
                             </div>
@@ -522,13 +270,15 @@ function BlogGrid() {
                         {/* rts- blog wizered end area */}
                     </div>
                 </div>
+          
             </div>
             {/* rts blog mlist area End */}
 
 
-            <FooterOne />
+            <FooterFour />
 
         </div>
+        
     )
 }
 
