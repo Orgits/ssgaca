@@ -12,22 +12,7 @@ function ServiceTen() {
                         {/* Manually added 30 services */}
 
                         {/* Service 1 */}
-                        <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
-                            <div className="service-two-inner">
-                                <Link to={'/service-details/1'} >
-                                    <img src="/assets/images/service/AUDIT AND ASSURANCE.png" alt="Audit & Assurance" />
-                                </Link>
-                                <div className="body-content">
-                                    <h5 className="title">Audit & Assurance</h5>
-                                    <p className="dsic">
-                                        Ensure your business's financial integrity with detailed audits and risk assessments.
-                                    </p>
-                                    <Link className="rts-read-more-two color-primary" to={'/service-details/'}>
-                                        Read More <i className="far fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         {/* Service 2 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
