@@ -28,7 +28,7 @@ function MapOne() {
                                     <div className="details">
                                        
                                         <p className="headoffice">Head Office</p>
-                                        <p className="office">D-2 Rohini Sector 11 New Delhi 110070</p>
+                                        <p className="office"> D-2, Pocket 2 , Sector 11, Rohini, Delhi, New Delhi, Delhi 110085</p>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ function MapOne() {
                         </div>
                         <div className="col-lg-6">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.055021879864!2d77.2215868!3d28.628113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd09dccf044f%3A0x527a2d401853b004!2sHimalaya%20house%20Cp!5e0!3m2!1sen!2sin!4v1740731893913!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.5943234590477!2d77.10725207528112!3d28.731667375610712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d013694652203%3A0x4fb2ab89e8996c72!2sSahil%20Goyal%20%26%20Co!5e0!3m2!1sen!2sin!4v1748806475892!5m2!1sen!2sin"
                                 width={600}
                                 height={450}
                                 style={{ border: 0 }}

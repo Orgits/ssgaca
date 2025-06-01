@@ -37,7 +37,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <Link className="logo-1" href="/assets/images/logo/logo21.png">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo.svg"
+                            src="/assets/images/logo/logo21.png"
                             alt="SSGA & Co._logo"
                         />
                     </Link>
@@ -92,7 +92,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">D-2 Rohini Sector 11 New Delhi 110070</Link>
+                                    <Link href="#"> D-2, Pocket 2 , Sector 11, Rohini, Delhi, New Delhi, Delhi 110085</Link>
                                 </div>
                                 {/* single ENd */}
                             </div>
@@ -109,7 +109,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 <Link href="#">
                                     <i className="fab fa-instagram" />
                                 </Link>
-                                <Link href="https://wa.me/9205544540">
+                                <Link href="https://wa.me/9953856288">
                                     <i className="fab fa-whatsapp" />
                                 </Link>
                             </div>
@@ -149,7 +149,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                             <Link href="#">
                                 <i className="fab fa-instagram" />
                             </Link>
-                            {/* <Link href="https://wa.me/9205544540">
+                            {/* <Link href="https://wa.me/9953856288">
                                 <i className="fab fa-whatsapp" />
                             </Link> */}
                             

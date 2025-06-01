@@ -4,7 +4,7 @@ import HeaderOne from "../components/header/HeaderFour";
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "./Breadcrumb";
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 function ContactUs() {
     const breadcrumbs = [
@@ -56,7 +56,7 @@ function ContactUs() {
                                     <div className="info">
                                         <span>Walk In</span><br />
                                         <Link to={'#'}>
-                                        <h8><b>D-2 Rohini Sector 11 New Delhi 110070</b></h8>
+                                        <h8><b> D-2, Pocket 2 , Sector 11, Rohini, Delhi, New Delhi, Delhi 110085</b></h8>
                                         </Link>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function ContactUs() {
                             <div className="contact-map-area-fluid">
                                 <iframe
                                     className="contact-map"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.055021879864!2d77.2215868!3d28.628113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd09dccf044f%3A0x527a2d401853b004!2sHimalaya%20house%20Cp!5e0!3m2!1sen!2sin!4v1740731893913!5m2!1sen!2sin"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.5943234590477!2d77.10725207528112!3d28.731667375610712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d013694652203%3A0x4fb2ab89e8996c72!2sSahil%20Goyal%20%26%20Co!5e0!3m2!1sen!2sin!4v1748806475892!5m2!1sen!2sin"
                                     style={{ border: 0 }}
                                     allowFullScreen=""
                                     loading="lazy"

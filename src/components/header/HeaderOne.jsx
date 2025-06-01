@@ -97,7 +97,7 @@ function HeaderOne() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="mr--0" to={'https://wa.me/9205544540'}>
+                                            <Link className="mr--0" to={'https://wa.me/9953856288'}>
                                                 <i className="fab fa-whatsapp" />
                                             </Link>
                                         </li>
@@ -113,7 +113,7 @@ function HeaderOne() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link to={'/'} >
-                                        <img src="/assets/images/logo/logo.svg" alt="SSGA & Co.-logo" />
+                                        <img src="/assets/images/logo/logo21.png" alt="SSGA & Co.-logo" />
                                     </Link>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ function HeaderOne() {
                                             to={'/contactus'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
                                         >
-                                            Get a Consultant
+                                            Get A Consultant
                                         </Link>
                                         <button
                                             id="menu-btn"

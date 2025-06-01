@@ -67,7 +67,7 @@ function HeaderThree() {
                         <div className="col-xl-3 col-lg-9 col-md-8 col-sm-7 col-7">
                             <div className="right justify-content-end">
                                 <Link to={'#'} className="rts-btn btn-primary-3">
-                                    Book a Meeting
+                                    Get A Consultant
                                 </Link>
                                 <button
                                     id="menu-btn"

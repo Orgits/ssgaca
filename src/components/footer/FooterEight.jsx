@@ -85,7 +85,7 @@ function FooterEight() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <Link to={'#'}>
-                                                           D-2 Rohini Sector 11  <br/>New Delhi 110070
+                                                         D-2, Pocket 2  <br/>, Sector 11, Rohini, Delhi, New Delhi, Delhi 110085
                                                         </Link>
                                                     </div>
                                                 </div>

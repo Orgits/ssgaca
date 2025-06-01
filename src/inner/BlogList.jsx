@@ -315,7 +315,7 @@ function ProjectThree() {
                             <div className="rts-single-wized contact">
                                 <div className="wized-header">
                                     <Link href="#">
-                                        <img src="assets/images/logo/logo.svg" alt="Business_logo" />
+                                        <img src="assets/images/logo/logo21.png" alt="Business_logo" />
                                     </Link>
                                 </div>
                                 <div className="wized-body">

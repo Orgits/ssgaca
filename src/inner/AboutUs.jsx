@@ -7,7 +7,7 @@ import TeamTwo from "../components/team/TeamTwo";
 import FooterOne from "../components/footer/FooterOne";
 
 import Accordion from 'react-bootstrap/Accordion';
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 function OurService() {
     const breadcrumbs = [

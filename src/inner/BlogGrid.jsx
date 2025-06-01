@@ -8,7 +8,7 @@ import post from '../data/post.json';
 
 import Breadcrumb from "./Breadcrumb";
 import BlogListMain from './BlogListMain';
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 
 function BlogGrid() {
@@ -181,7 +181,7 @@ function BlogGrid() {
                             <div className="rts-single-wized contact">
                                 <div className="wized-header">
                                     <Link href="index.html">
-                                        <img src="assets/images/logo/logo.svg" alt="Business_logo" />
+                                        <img src="assets/images/logo/logo21.png" alt="Business_logo" />
                                     </Link>
                                 </div>
                                 <div className="wized-body">

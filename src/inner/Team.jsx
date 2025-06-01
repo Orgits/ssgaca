@@ -6,7 +6,7 @@ import HeaderOne from "../components/header/HeaderFour";
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "./Breadcrumb";
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 
 function ProjectThree() {

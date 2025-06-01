@@ -63,7 +63,7 @@ function HeaderEight() {
                                 </div>
                             </div>
                             <Link className="rts-btn btn-primary-2 menu-block-none" to={'#'}>
-                                Book a Meeting
+                                Get A Consultant
                             </Link>
                             <button
                                 id="menu-btn" onClick={toggleSidebar}

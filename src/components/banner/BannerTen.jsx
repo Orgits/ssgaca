@@ -20,7 +20,7 @@ function BannerTen() {
                                     deserves to thrive in today's dynamic economic landscape.
                                 </p>
                                 <Link to={'#'} className="rts-btn btn-primary-2">
-                                    Book a Meeting
+                                    Get A Consultant
                                 </Link>
                             </div>
                             {/* banner inner-content ten area end */}

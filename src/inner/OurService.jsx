@@ -8,7 +8,7 @@ import BlogThree from "../components/blog/BlogThree";
 import ContactForm from "../components/contactform/ContactForm";
 
 // import FooterOne from "../components/footer/FooterOne";
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 function OurService() {
     const breadcrumbs = [

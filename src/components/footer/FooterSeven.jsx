@@ -21,7 +21,7 @@ function FooterSeven() {
                                     sodales porttitor quisque.
                                 </p>
                                 <Link className="rts-btn btn-primary-2 color-h-black" to={'#'}>
-                                    Get a Quote
+                                    Get A Consultant
                                 </Link>
                             </div>
                         </div>

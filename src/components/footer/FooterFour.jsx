@@ -10,7 +10,7 @@ function FooterFour() {
                         <div className="col-xl-3 col-lg-6">
                             <div className="footer-three-single-wized left">
                                 <a href="index" className="logo_footer">
-                                    <img src="assets/images/logo/logo.svg" alt="Logo-image" />
+                                    <img src="assets/images/logo/logo21.png" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
                                 SSGA & Co. is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
@@ -37,7 +37,7 @@ function FooterFour() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://wa.me/9205544540">
+                                        <a href="https://wa.me/9953856288">
                                             <i className="fab fa-whatsapp" />
                                         </a>
                                     </li>
@@ -84,7 +84,7 @@ function FooterFour() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <a href="#">
-                                                           D-2 Rohini Sector 11  <br/>New Delhi 110070
+                                                         D-2, Pocket 2  <br/>, Sector 11, Rohini, Delhi, New Delhi, Delhi 110085
                                                         </a>
                                                     </div>
                                                 </div>

@@ -119,18 +119,18 @@ function FooterFive() {
                                 </div>
                                 <div className="opening-time-inner">
                                     <div className="single-opening">
-                                        <p className="day">Week Days</p>
-                                        <p className="time">09.00 - 24:00</p>
+                                        <p className="day">Mon - Fri</p>
+                                        <p className="time">10.00 AM - 06:00 PM</p>
                                     </div>
                                     <div className="single-opening">
                                         <p className="day">Saturday</p>
-                                        <p className="time">08:00 - 03.00</p>
+                                        <p className="time">10:00 AM - 05.00 PM</p>
                                     </div>
                                     <div className="single-opening mb--30 mb_sm--10">
                                         <p className="day">Sunday</p>
                                         <p className="time">Day Off</p>
                                     </div>
-                                    <Link to={'#'} className="rts-btn btn-primary contact-us">
+                                    <Link to={'/contactus'} className="rts-btn btn-primary contact-us">
                                         Contact Us
                                     </Link>
                                 </div>

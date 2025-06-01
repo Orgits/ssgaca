@@ -11,7 +11,7 @@ function ServiceThree() {
     return (
         <div>
             {/* rts-service area start */}
-            <div className="rts-service-area rts-section-gap pb--140">
+            <div className="rts-service-area  pb--140" style={{ padding: '-60px 0' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

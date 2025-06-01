@@ -679,7 +679,7 @@ ol ul {
 }
 
 .rts-section-gap {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gap {
@@ -693,7 +693,7 @@ ol ul {
 }
 
 .rts-section-gapBottom {
-  padding-bottom: 120px;
+  padding-bottom: 90px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gapBottom {
@@ -10963,7 +10963,7 @@ body {
   margin-bottom: 24px;
 }
 .rts-title-area.service::after {
-  content: "Services";
+  content: "";
   left: 50%;
   transform: translateX(-50%);
 }
@@ -10976,7 +10976,7 @@ body {
   top: -70%;
 }
 .rts-title-area.service-four::after {
-  content: "Services";
+  content: "";
   left: 50%;
   transform: translateX(-50%);
   top: -20%;
@@ -10990,27 +10990,27 @@ body {
   z-index: -1;
 }
 .rts-title-area.gallery::after {
-  content: "Gallery";
+  content: "";
   left: 18%;
   transform: translateX(-50%);
   z-index: -1;
 }
 .rts-title-area.team::after {
-  content: "Members";
+  content: "";
   left: 49%;
   transform: translateX(-50%);
   z-index: -1;
   height: 109px;
 }
 .rts-title-area.feedback::after {
-  content: "Testimonial";
+  content: "";
   left: 49%;
   transform: translateX(-50%);
   z-index: -1;
   height: 109px;
 }
 .rts-title-area.feature::after {
-  content: "Features";
+  content: "";
   left: 32%;
   transform: translateX(-50%);
   z-index: -1;
@@ -11024,7 +11024,7 @@ body {
   }
 }
 .rts-title-area.reviews::after {
-  content: "Reviews";
+  content: "";
   left: 32%;
   transform: translateX(-50%);
   z-index: -1;
@@ -11032,7 +11032,7 @@ body {
   top: 2%;
 }
 .rts-title-area.contact::after {
-  content: "Hello";
+  content: "";
   left: 52%;
   transform: translateX(-50%);
   z-index: -1;
@@ -11041,7 +11041,7 @@ body {
 }
 .rts-title-area.contact-appoinment::after {
   position: absolute;
-  content: "Hello";
+  content: "";
   left: 18%;
   top: -39%;
   color: #8b868600;
@@ -11066,7 +11066,7 @@ body {
   }
 }
 .rts-title-area.contact-fluid::after {
-  content: "Contact Us";
+  content: "";
   left: 49%;
   transform: translateX(-50%);
   z-index: -1;
@@ -15181,7 +15181,7 @@ body.sal-disabled [data-sal|=flip] {
 .header-top-one .left .mail a {
   padding: 11px 0;
   display: block;
-  color: #fff;
+  color: #ff0b0b;
   margin-right: 50px;
   font-size: 14px;
   position: relative;
@@ -15252,7 +15252,7 @@ body.sal-disabled [data-sal|=flip] {
   bottom: 12px;
   height: 1px;
   width: 0%;
-  background: #fff;
+  background: #ffffff;
   transition: var(--transition);
 }
 .header-top-one .right .top-nav li a:hover::after {
@@ -15269,7 +15269,7 @@ body.sal-disabled [data-sal|=flip] {
   transform: scale(1.2);
 }
 .header-top-one .right .social-wrapper-one i {
-  color: #fff;
+  color: #ffffff;
 }
 .header-top-one .right .social-wrapper-one::after {
   position: absolute;
@@ -15282,7 +15282,7 @@ body.sal-disabled [data-sal|=flip] {
   background: #F36464;
 }
 .header-top-one.header-top-four {
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1.8px solid #145886;
 }
 @media (max-width: 1200px) {
   .header-top-one.header-top-four {
@@ -15298,6 +15298,9 @@ body.sal-disabled [data-sal|=flip] {
 .header-top-one.header-top-four.header-top-five .right-h-three .header-top-right .call i {
   color: var(--color-primary-2);
 }
+
+
+
 .header-top-one.header-top-four .top-left {
   padding: 10px 0;
   padding-left: 0;
@@ -15569,7 +15572,7 @@ body.sal-disabled [data-sal|=flip] {
   bottom: 46px;
 }
 .header-three .header-top-three {
-  background: white;
+  background: rgb(190, 25, 25);
   border-bottom: 1px solid #EDEDED;
 }
 @media only screen and (max-width: 1199px) {
@@ -18488,7 +18491,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   animation-delay: 0s;
 }
 .banner-three.banner-four {
-  background: url(../images/banner/img.jpg);
+  background: url(../images/banner/banner-12.jpg);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25254,7 +25257,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .counter-bg {
-    height: 640px;
+    height: 270px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -26861,12 +26864,12 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 @media only screen and (max-width: 1499px) {
   .bg-team {
-    height: 931px;
+    height: 800px;
   }
 }
 @media only screen and (max-width: 1399px) {
   .bg-team {
-    height: 879px;
+    height: 690px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -31367,7 +31370,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 .rts-contact-area.contact-one::after {
   position: absolute;
   content: "";
-  background-image: url(../images/contact/shape/01.png);
+  /* background-image: url(../images/contact/shape/01.png); */
   right: 10%;
   top: -8%;
   height: 190px;
@@ -31455,7 +31458,6 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   height: 580px;
 }
 .contact-map-area-fluid .location {
-  position: absolute;
   top: 50%;
   left: 50%;
   z-index: 5;
@@ -31667,7 +31669,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 .rts-map-area::after {
   position: absolute;
   content: "";
-  background-image: url(../images/contact/shape/01.png);
+  /* background-image: url(../images/contact/shape/01.png); */
   height: 105px;
   width: 105px;
   left: 53px;

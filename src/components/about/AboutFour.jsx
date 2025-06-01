@@ -3,7 +3,7 @@ function AboutFour() {
     return (
         <div>
             {/* rts about area start */}
-            <div className="rts-about-area rts-section-gap about-home-seven">
+            <div className="rts-about-area rts-section-gap about-home-seven" style={{ padding: '90px 0' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
