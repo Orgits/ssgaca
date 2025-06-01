@@ -27,7 +27,7 @@ function AboutOne() {
                             </div>
                             <div className="about-inner">
                                 <p className="disc">
-                                    <b>LDR Groups</b> is a leading <b>Chartered Accountancy & Business Consulting Firm</b> committed to delivering <b>strategic solutions</b> for businesses worldwide. Since 2017, we have been helping businesses <b>navigate complex financial landscapes, ensure compliance, and achieve sustainable growth.</b>
+                                    <b>SSGA & Co.</b> is a leading <b>Chartered Accountancy & Business Consulting Firm</b> committed to delivering <b>strategic solutions</b> for businesses worldwide. Since 2017, we have been helping businesses <b>navigate complex financial landscapes, ensure compliance, and achieve sustainable growth.</b>
                                 </p>
                                 {/* start about success area */}
                                 <div className="row about-success-wrapper">
@@ -94,12 +94,12 @@ function AboutOne() {
                             <div className="about-one-thumbnail">
                                 <img
                                     src="assets/images/about/main/about-01.png"
-                                    alt="About LDR Groups"
+                                    alt="About SSGA & Co."
                                 />
                                 <img
                                     className="small-img"
                                     src="assets/images/about/main/about-02.png"
-                                    alt="LDR Groups-small"
+                                    alt="SSGA & Co.-small"
                                 />
                                 <div className="experience">
                                     <div className="left single">

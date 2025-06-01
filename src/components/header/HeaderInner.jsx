@@ -68,7 +68,7 @@ function HeaderInner() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <a href="index.html">
-                                        <img src="assets/images/logo/logo-1.svg" alt="LDR Groups-logo" />
+                                        <img src="assets/images/logo/logo-1.svg" alt="SSGA & Co.-logo" />
                                     </a>
                                 </div>
                             </div>

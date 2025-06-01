@@ -29,7 +29,7 @@ function BannerFive() {
                                     </div>
                                     <p className="disc">
                                    <b> Providing expert financial and consulting solutions to drive growth and success.</b>
-                                        <br /> <b>LDR Groups empowers businesses with strategic planning and compliance support.</b>
+                                        <br /> <b>SSGA & Co. empowers businesses with strategic planning and compliance support.</b>
                                     </p>
                                     <div className="button-group">
                                         <Link to={'/pricing-plane'} className="rts-btn btn-primary-3 btn-primary-4">

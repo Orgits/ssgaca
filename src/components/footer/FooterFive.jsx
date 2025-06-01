@@ -49,7 +49,7 @@ function FooterFive() {
                                     <h5 className="title">Quick Links</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
+                                        alt="SSGA & Co._footer"
                                     />
                                 </div>
                                 <div className="quick-link-inner">
@@ -114,7 +114,7 @@ function FooterFive() {
                                     <h5 className="title">Opening Hours</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
+                                        alt="SSGA & Co._footer"
                                     />
                                 </div>
                                 <div className="opening-time-inner">
@@ -144,7 +144,7 @@ function FooterFive() {
                                     <h5 className="title">Popular Updates</h5>
                                     <img
                                         src="assets/images/footer/under-title.png"
-                                        alt="LDR Groups_footer"
+                                        alt="SSGA & Co._footer"
                                     />
                                 </div>
                                 <div className="post-wrapper">
@@ -153,7 +153,7 @@ function FooterFive() {
                                         <div className="left-thumbnail">
                                             <img
                                                 src="assets/images/footer/post/01.png"
-                                                alt="LDR Groups_business-post"
+                                                alt="SSGA & Co._business-post"
                                             />
                                         </div>
                                         <div className="post-right">
@@ -178,7 +178,7 @@ function FooterFive() {
                                         <div className="left-thumbnail">
                                             <img
                                                 src="assets/images/footer/post/02.png"
-                                                alt="LDR Groups_business-post"
+                                                alt="SSGA & Co._business-post"
                                             />
                                         </div>
                                         <div className="post-right">

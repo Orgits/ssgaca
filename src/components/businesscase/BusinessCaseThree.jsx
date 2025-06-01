@@ -11,7 +11,7 @@ function BusinessCaseThree() {
                             <div className="title-area">
                                 <span className="sub">OUR STRATEGY</span>
                                 <h2 className="title">
-                                    Grow Your Business with <br /> LDR Groups Pro SEO
+                                    Grow Your Business with <br /> SSGA & Co. Pro SEO
                                 </h2>
                             </div>
                         </div>

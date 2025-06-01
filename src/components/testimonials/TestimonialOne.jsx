@@ -39,7 +39,7 @@ function TestimonialOne() {
                                         <SwiperSlide>
                                             <div className="testimonial-inner">
                                                 <p className="disc text-start">
-                                                    “LDR Groups has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!””
+                                                    “SSGA & Co. has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!””
                                                 </p>
                                                 <div className="testimonial-bottom-one">
                                                     <div className="thumbnail">
@@ -60,7 +60,7 @@ function TestimonialOne() {
                                         <SwiperSlide>
                                             <div className="testimonial-inner">
                                                 <p className="disc text-start">
-                                                    “LDR Groups has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!”
+                                                    “SSGA & Co. has been instrumental in streamlining our financial compliance. Their expertise and guidance helped us navigate complex regulations effortlessly. Highly recommended!”
                                                 </p>
                                                 <div className="testimonial-bottom-one">
                                                     <div className="thumbnail">

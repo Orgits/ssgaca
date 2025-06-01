@@ -77,7 +77,7 @@ function HeaderTwo() {
                     <div className="content">
                         <div className="header-left">
                             <Link className="thumbnail" href="index.html">
-                                <img src="assets/images/logo/logo.svg" alt=""/>
+                                <img src="assets/images/logo/logo21.png" alt=""/>
                             </Link>
                             <Nav />
                         </div>

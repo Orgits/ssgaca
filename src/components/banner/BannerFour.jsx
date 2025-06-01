@@ -6,9 +6,9 @@ function BannerFour() {
         <div>
             {/* banner area start three */}
             <div className="rts-banner-area banner-three banner-four bg_image" id='banner'>
-                <div className="shape">
+                {/* <div className="shape">
                     <img src="assets/images/banner/shape/rectangle.png" alt="shape" />
-                </div>
+                </div> */}
                 <div className="shape1">
                     <img src="assets/images/banner/shape/05.png" alt="shape" />
                 </div>

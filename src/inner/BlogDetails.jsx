@@ -3,7 +3,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 // import FooterFour from "../components/footer/FooterFour";
 import Breadcrumb from "./Breadcrumb";
 import post from '../data/post.json';
@@ -55,7 +55,7 @@ function BlogGrid() {
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-user-circle" />
-                                            <span>By LDR GROUPS</span>
+                                            <span>By SSGA & Co.</span>
                                         </div>
                                         {/* single infoe end */}
                                         
@@ -285,7 +285,7 @@ function BlogGrid() {
                                     <img src="../assets/images/logo/logo.svg" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
-                                LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
+                                SSGA & Co. is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
                                 </p>
                                 <ul className="social-three-wrapper">
                                     <li>

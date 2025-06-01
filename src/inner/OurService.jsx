@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 import Breadcrumb from "./Breadcrumb";
 import ServiceTen from "../components/service/ServiceTen";
 import FaqTwo from "../components/faq/FaqTwo";

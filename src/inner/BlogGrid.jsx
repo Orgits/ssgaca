@@ -3,7 +3,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 import post from '../data/post.json';
 
 import Breadcrumb from "./Breadcrumb";

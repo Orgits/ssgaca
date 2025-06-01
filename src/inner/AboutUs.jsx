@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 import Breadcrumb from "./Breadcrumb";
 import { Link } from 'react-router-dom';
 import TeamTwo from "../components/team/TeamTwo";
@@ -105,7 +105,7 @@ function OurService() {
                                 {/* inner start */}
                                 <div className="inner">
                                     <p className="disc">
-                                        LDR Groups is a premier chartered accountancy and business consulting firm, dedicated to providing strategic financial, tax, and compliance solutions for businesses of all sizes. Established in 2017, we specialize in audit & assurance, taxation, business compliance, corporate law, and financial advisory services.
+                                        SSGA & Co. is a premier chartered accountancy and business consulting firm, dedicated to providing strategic financial, tax, and compliance solutions for businesses of all sizes. Established in 2017, we specialize in audit & assurance, taxation, business compliance, corporate law, and financial advisory services.
                                     </p>
                                     <div className="rts-progress-one-wrapper">
                                         <div className="single-progress">
@@ -306,19 +306,19 @@ function OurService() {
                                     </div>
                                     <Accordion defaultActiveKey="0">
                                         <Accordion.Item eventKey="0">
-                                            <Accordion.Header><span>01. </span> What services does LDR Groups offer?</Accordion.Header>
+                                            <Accordion.Header><span>01. </span> What services does SSGA & Co. offer?</Accordion.Header>
                                             <Accordion.Body>
-                                            LDR Groups provides a wide range of services, including audit & assurance, taxation, GST compliance, business consulting, corporate law advisory, financial management, and international taxation. We also assist startups, SMEs, and large enterprises with legal and regulatory compliance.
+                                            SSGA & Co. provides a wide range of services, including audit & assurance, taxation, GST compliance, business consulting, corporate law advisory, financial management, and international taxation. We also assist startups, SMEs, and large enterprises with legal and regulatory compliance.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
-                                            <Accordion.Header><span>02. </span> How can LDR Groups help my business grow?</Accordion.Header>
+                                            <Accordion.Header><span>02. </span> How can SSGA & Co. help my business grow?</Accordion.Header>
                                             <Accordion.Body>
                                             Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
-                                            <Accordion.Header><span>03. </span> How do I get started with LDR Groups?</Accordion.Header>
+                                            <Accordion.Header><span>03. </span> How do I get started with SSGA & Co.?</Accordion.Header>
                                             <Accordion.Body>
                                             You can contact us via phone, email, or our website contact form to schedule a consultation. Our team will assess your business needs and provide customized solutions to help you achieve your financial and operational goals. 🚀
                                             </Accordion.Body>

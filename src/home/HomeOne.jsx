@@ -1,7 +1,7 @@
 import React from 'react'
-import HeaderOne from "../components/header/HeaderOne";
-import BannerFive from "../components/banner/BannerFive";
-import AboutOne from "../components/about/AboutOne";
+import HeaderFour from "../components/header/HeaderFour";
+import BannerFive from "../components/banner/BannerFour";
+import AboutOne from "../components/about/AboutFour";
 import ServiceOne from "../components/service/ServiceOne";
 import BusinessGoalOne from "../components/businessgoal/BusinessGoalOne";
 import Counterup from "../components/counterup/Counterup";
@@ -17,13 +17,13 @@ import MapOne from "../components/map/MapOne";
 
 
 
-import FooterFour from '../components/footer/FooterFour';
+import FooterFour from '../components/footer/FooterFive';
 
 function HomeOne() {
   return (
     <div>
 
-      <HeaderOne />
+      <HeaderFour />
       <BannerFive />
       <AboutOne />
       <ServiceOne />

@@ -36,7 +36,7 @@ const servicesData = [
     },
     {
         id: 6,
-        title: "LDR Groups Solution",
+        title: "SSGA & Co. Solution",
         description: "Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam bibendum morbi laoreet lobortis id.",
         image: "/assets/images/service/04.jpg",
         thumbnailClass: "three",

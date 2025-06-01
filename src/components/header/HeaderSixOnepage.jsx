@@ -53,7 +53,7 @@ function HeaderSix() {
                                     <div className="single-right call">
                                         <i className="far fa-phone-volume" />
                                         <span>Hotline:</span>
-                                        <Link to={'#'}>+210-9856988</Link>
+                                        <Link to={'#'}>+91 99538 56288</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ function HeaderSix() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div className="thumbnail">
                                     <Link href="index.html">
-                                        <img src="assets/images/logo/logo-3.svg" alt="LDR Groups-logo" />
+                                        <img src="assets/images/logo/logo-3.svg" alt="SSGA & Co.-logo" />
                                     </Link>
                                 </div>
                             </div>

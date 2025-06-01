@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Tabs, Tab, TabContent } from 'react-bootstrap';
 
 
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
@@ -51,7 +51,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/01.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -79,7 +79,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/02.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -107,7 +107,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/03.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -135,7 +135,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/04.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -163,7 +163,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/05.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -191,7 +191,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/06.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -227,7 +227,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/06.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -255,7 +255,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/05.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -283,7 +283,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/04.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -311,7 +311,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/03.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -339,7 +339,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/02.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -367,7 +367,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/01.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -403,7 +403,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/06.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -431,7 +431,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/05.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -459,7 +459,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/04.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -487,7 +487,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/03.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -515,7 +515,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/02.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -543,7 +543,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/01.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -579,7 +579,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/06.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -607,7 +607,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/05.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -635,7 +635,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/04.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -663,7 +663,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/03.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -691,7 +691,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/02.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"
@@ -719,7 +719,7 @@ function Project() {
                                                     <div className="thumbnail-area">
                                                         <img
                                                             src="assets/images/product/01.jpg"
-                                                            alt="Business_LDR Groups"
+                                                            alt="Business_SSGA & Co."
                                                         />
                                                         <Link
                                                             className="rts-btn btn-primary rounded"

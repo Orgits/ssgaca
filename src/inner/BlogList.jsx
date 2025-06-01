@@ -1,6 +1,6 @@
 
 import React from 'react';
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 import post from '../data/post.json';
 import BlogGridMain from './BlogGridMain';
 import { Link } from 'react-router-dom';
@@ -121,7 +121,7 @@ function ProjectThree() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href="#">
-                                                LDR Groups Solution <i className="far fa-long-arrow-right" />
+                                                SSGA & Co. Solution <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
                                     </ul>

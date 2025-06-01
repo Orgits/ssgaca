@@ -9,7 +9,7 @@ function Feature() {
                     <div className="row bg-white-feature pt--120 pb--120">
                         <div className="col-xl-6 col-lg-12">
                             <div className="feature-left-area">
-                                <img src="assets/images/feature/01.png" alt="LDR Groups Feature" />
+                                <img src="assets/images/feature/01.png" alt="SSGA & Co. Feature" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-12">
@@ -20,7 +20,7 @@ function Feature() {
                                     Business Growth & Compliance
                                 </h2>
                                 <span>
-                                    At <b>LDR Groups,</b> we provide strategic financial and legal consulting to help businesses thrive. 
+                                    At <b>SSGA & Co.,</b> we provide strategic financial and legal consulting to help businesses thrive. 
                                     Our expert-driven solutions ensure compliance, streamline operations, and enhance profitability. With a commitment to excellence, we empower enterprises to navigate complex regulatory landscapes with confidence.
                                 </span>
                             </div>

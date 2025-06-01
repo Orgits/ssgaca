@@ -20,7 +20,7 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/1'} className="main-thumbnail">
                                     <img src="assets/images/blog/05.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">LDR Groups
+                                    <span className="badge-blog">SSGA & Co.
                                     </span>
                                 </Link>
                                 <div className="blog-body">
@@ -53,7 +53,7 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/2'} className="main-thumbnail">
                                     <img src="assets/images/blog/06.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">LDR Groups</span>
+                                    <span className="badge-blog">SSGA & Co.</span>
                                 </Link>
                                 <div className="blog-body">
                                     <div className="blog-header">
@@ -85,7 +85,7 @@ function BlogThree() {
                             <div className="blog-three-wrapepr">
                                 <Link to={'/blog/3'} className="main-thumbnail">
                                     <img src="assets/images/blog/07.jpg" alt="Blog_image" />
-                                    <span className="badge-blog">LDR Groups</span>
+                                    <span className="badge-blog">SSGA & Co.</span>
                                 </Link>
                                 <div className="blog-body">
                                     <div className="blog-header">

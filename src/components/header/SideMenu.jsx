@@ -34,37 +34,37 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                 </button>
                 {/* inner menu area desktop start */}
                 <div className="rts-sidebar-menu-desktop">
-                    <Link className="logo-1" href="/assets/images/logo/logo.svg">
+                    <Link className="logo-1" href="/assets/images/logo/logo21.png">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo.svg"
-                            alt="LDR Groups_logo"
+                            alt="SSGA & Co._logo"
                         />
                     </Link>
                     <Link className="logo-2" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-4.svg"
-                            alt="LDR Groups_logo"
+                            alt="SSGA & Co._logo"
                         />
                     </Link>
                     <Link className="logo-3" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-3.svg"
-                            alt="LDR Groups_logo"
+                            alt="SSGA & Co._logo"
                         />
                     </Link>
                     <Link className="logo-4" href="index.html">
                         <img
                             className="logo"
                             src="/assets/images/logo/logo-5.svg"
-                            alt="LDR Groups_logo"
+                            alt="SSGA & Co._logo"
                         />
                     </Link>
                     <div className="body d-none d-xl-block">
                         <p className="disc">
-                        LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
+                        SSGA & Co. is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
                         </p>
                         <div className="get-in-touch">
                             {/* title */}
@@ -86,7 +86,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-globe" />
-                                    <Link href="#">ldrgroups.in</Link>
+                                    <Link href="#">ssgaca.com</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}

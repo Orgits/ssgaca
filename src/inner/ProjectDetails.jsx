@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
@@ -31,7 +31,7 @@ function ProjectThree() {
                             <div className="big-bg-porduct-details">
                                 <img
                                     src="assets/images/product/bg-lg-01.jpg"
-                                    alt="Business_LDR Groups"
+                                    alt="Business_SSGA & Co."
                                 />
                                 <div className="project-info">
                                     <div className="info-head">

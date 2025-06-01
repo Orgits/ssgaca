@@ -25,7 +25,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/01.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -53,7 +53,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/02.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -81,7 +81,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/03.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -109,7 +109,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/04.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -137,7 +137,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/05.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">
@@ -165,7 +165,7 @@ function ServiceEleven() {
                                 <div className="thumbnail">
                                     <img
                                         src="assets/images/service/icon/06.svg"
-                                        alt="LDR Groups_service"
+                                        alt="SSGA & Co._service"
                                     />
                                 </div>
                                 <div className="service-details">

@@ -61,22 +61,22 @@ function TestimonialNine() {
                         <div className="row">
                             <div className="client-wrapper-one">
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/01.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/01.png" alt="business_SSGA & Co." />
                                 </Link>
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/02.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/02.png" alt="business_SSGA & Co." />
                                 </Link>
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/03.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/03.png" alt="business_SSGA & Co." />
                                 </Link>
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/04.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/04.png" alt="business_SSGA & Co." />
                                 </Link>
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/05.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/05.png" alt="business_SSGA & Co." />
                                 </Link>
                                 <Link to={'#'}>
-                                    <img src="assets/images/client/06.png" alt="business_LDR Groups" />
+                                    <img src="assets/images/client/06.png" alt="business_SSGA & Co." />
                                 </Link>
                             </div>
                         </div>

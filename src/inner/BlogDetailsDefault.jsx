@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderOne from "../components/header/HeaderFour";
 
 import FooterOne from "../components/footer/FooterFour";
 import Breadcrumb from "./Breadcrumb";
@@ -98,7 +98,7 @@ function BlogGrid() {
                                             <div className="thumbnail details">
                                                 <img
                                                     src="assets/images/blog/details/01.jpg"
-                                                    alt="LDR Groups_buseness"
+                                                    alt="SSGA & Co._buseness"
                                                 />
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ function BlogGrid() {
                                             <div className="thumbnail details">
                                                 <img
                                                     src="assets/images/blog/details/02.jpg"
-                                                    alt="LDR Groups_buseness"
+                                                    alt="SSGA & Co._buseness"
                                                 />
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ function BlogGrid() {
                                             <div className="thumbnail details mb_sm--15">
                                                 <img
                                                     src="assets/images/blog/details/03.jpg"
-                                                    alt="LDR Groups_buseness"
+                                                    alt="SSGA & Co._buseness"
                                                 />
                                             </div>
                                         </div>
@@ -206,7 +206,7 @@ function BlogGrid() {
                                         <div className="thumbnail details mb_sm--15">
                                             <img
                                                 src="assets/images/blog/details/author.jpg"
-                                                alt="LDR Groups_buseness"
+                                                alt="SSGA & Co._buseness"
                                             />
                                         </div>
                                         <div className="author-details team">

@@ -49,7 +49,7 @@ function HeaderSeven() {
                                     </div>
                                     <div className="call">
                                         <i className="fas fa-phone-alt" />
-                                        <Link to={'#'}>Hoteline: +210-9856988</Link>
+                                        <Link to={'#'}>Hoteline: +91 99538 56288</Link>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ function HeaderSeven() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link to={'/'}>
-                                        <img src="assets/images/logo/logo-1.svg" alt="LDR Groups-logo" />
+                                        <img src="assets/images/logo/logo-1.svg" alt="SSGA & Co.-logo" />
                                     </Link>
                                 </div>
                             </div>

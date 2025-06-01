@@ -113,7 +113,7 @@ function HeaderOne() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link to={'/'} >
-                                        <img src="/assets/images/logo/logo.svg" alt="LDR Groups-logo" />
+                                        <img src="/assets/images/logo/logo.svg" alt="SSGA & Co.-logo" />
                                     </Link>
                                 </div>
                             </div>
