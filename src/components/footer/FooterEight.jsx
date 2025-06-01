@@ -62,7 +62,7 @@ function FooterEight() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Call Us 24/7</span>
-                                                        <Link to={'#'}>+91 92055 44540</Link>
+                                                        <Link to={'#'}>+91 99538 56288</Link>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -73,7 +73,7 @@ function FooterEight() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <Link to={'mailto:Office@ldrgroups.com'}>Office@ldrgroups.com</Link>
+                                                        <Link to={'mailto:info@ssgca.com'}>info@ssgca.com</Link>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -85,7 +85,7 @@ function FooterEight() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <Link to={'#'}>
-                                                           7th Floor, Office No. 74D,  <br/>Himalaya House KG Marg Area, ND - 110001
+                                                           D-2 Rohini Sector 11  <br/>New Delhi 110070
                                                         </Link>
                                                     </div>
                                                 </div>
@@ -179,7 +179,7 @@ function FooterEight() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center">
-                                    LDR Groups - Copyright 2025. All rights reserved.
+                                    SSGCA - Copyright 2025. All rights reserved.
                                 </p>
                             </div>
                         </div>

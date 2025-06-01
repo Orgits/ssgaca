@@ -51,8 +51,8 @@ function HeaderOneOnepage() {
                             <div className="col-lg-6 d-xl-block d-none">
                                 <div className="left">
                                     <div className="mail">
-                                        <Link to={'mailto:Office@ldrgroups.com'}>
-                                            <i className="fal fa-envelope" /> Office@ldrgroups.com
+                                        <Link to={'mailto:info@ssgca.com'}>
+                                            <i className="fal fa-envelope" /> info@ssgca.com
                                         </Link>
                                     </div>
                                     <div className="working-time">

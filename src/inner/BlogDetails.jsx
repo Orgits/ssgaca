@@ -90,7 +90,7 @@ function BlogGrid() {
                                         <div className="col-lg-6 col-md-12">
                                             <div className="details-share">
                                                 <h6>Share:</h6>
-                                                <button onClick={() => window.open(shareLinks.facebook, "https://ldrgroups.com/blog/")}>
+                                                <button onClick={() => window.open(shareLinks.facebook, "https://ssgca.com/blog/")}>
                                                     <i className="fab fa-facebook-f" />
                                                 </button>
                                                 <button onClick={() => window.open(shareLinks.twitter, "_blank")}>
@@ -333,7 +333,7 @@ function BlogGrid() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Call Us 24/7</span>
-                                                        <a href="#">+91 92055 44540</a>
+                                                        <a href="#">+91 99538 56288</a>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -344,7 +344,7 @@ function BlogGrid() {
                                                     </ul>
                                                     <div className="info">
                                                         <span>Work with us</span>
-                                                        <a href="mailto:Office@ldrgroups.com">Office@ldrgroups.com</a>
+                                                        <a href="mailto:info@ssgca.com">info@ssgca.com</a>
                                                     </div>
                                                 </div>
                                                 <div className="single">
@@ -356,7 +356,7 @@ function BlogGrid() {
                                                     <div className="info">
                                                         <span>Our Location</span>
                                                         <a href="#">
-                                                           7th Floor, Office No. 74D,  <br/>Himalaya House KG Marg Area, ND - 110001
+                                                           D-2 Rohini Sector 11  <br/>New Delhi 110070
                                                         </a>
                                                     </div>
                                                 </div>
@@ -450,7 +450,7 @@ function BlogGrid() {
                         <div className="row">
                             <div className="col-12">
                                 <p className="disc text-center ptb--25">
-                                    LDR Groups - Copyright 2025. All rights reserved.
+                                    SSGCA - Copyright 2025. All rights reserved.
                                 </p>
                             </div>
                         </div>

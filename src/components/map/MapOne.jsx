@@ -15,7 +15,7 @@ function MapOne() {
                                     <div className="details">
                                         <p>Write to Us</p>
                                         <Link className="number" to={'#'}>
-                                        Office@ldrgroups.com
+                                        info@ssgca.com
                                         </Link>
                                         <p className="time-header">Working hours:</p>
                                         <p className="time">
@@ -28,7 +28,7 @@ function MapOne() {
                                     <div className="details">
                                        
                                         <p className="headoffice">Head Office</p>
-                                        <p className="office">7th Floor, Office No. 74D, Himalaya House KG Marg Area, ND - 110001</p>
+                                        <p className="office">D-2 Rohini Sector 11 New Delhi 110070</p>
                                     </div>
                                 </div>
                             </div>

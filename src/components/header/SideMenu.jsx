@@ -74,13 +74,13 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-phone-alt" />
-                                    <Link href="tel:+919205544540">+91 92055 44540</Link>
+                                    <Link href="tel:+919205544540">+91 99538 56288</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-envelope" />
-                                    <Link href="mailto:Office@ldrgroups.com">Office@ldrgroups.com</Link>
+                                    <Link href="mailto:info@ssgca.com">info@ssgca.com</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
@@ -92,7 +92,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">7th Floor, Office No. 74D, Himalaya House KG Marg Area, ND - 110001</Link>
+                                    <Link href="#">D-2 Rohini Sector 11 New Delhi 110070</Link>
                                 </div>
                                 {/* single ENd */}
                             </div>

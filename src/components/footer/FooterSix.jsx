@@ -211,7 +211,7 @@ function FooterSix() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="text-center">
-                                    <p>LDR Groups - Copyright 2025. All rights reserved.</p>
+                                    <p>SSGCA - Copyright 2025. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

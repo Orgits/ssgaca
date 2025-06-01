@@ -87,7 +87,7 @@ function FooterSeven() {
                                         </div>
                                         <div className="disc">
                                             <span>Call Us 24/7</span>
-                                            <Link to={'#'}>+91 92055 44540</Link>
+                                            <Link to={'#'}>+91 99538 56288</Link>
                                         </div>
                                     </div>
                                     <div className="contact-info-1">
@@ -96,7 +96,7 @@ function FooterSeven() {
                                         </div>
                                         <div className="disc">
                                             <span>Work with us</span>
-                                            <Link to={'mailto:Office@ldrgroups.com'}>Office@ldrgroups.com</Link>
+                                            <Link to={'mailto:info@ssgca.com'}>info@ssgca.com</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@ function FooterSeven() {
                         <div className="col-lg-12">
                             <div className="copyright-h-2-wrapper">
                                 <p className="disc">
-                                    LDR Groups - Copyright 2025. All rights reserved.
+                                    SSGCA - Copyright 2025. All rights reserved.
                                 </p>
                                 <div className="right">
                                     <ul>

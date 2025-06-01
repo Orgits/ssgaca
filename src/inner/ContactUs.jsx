@@ -34,8 +34,8 @@ function ContactUs() {
                                     </div>
                                     <div className="info">
                                         <span>Call Us 24/7</span><br />
-                                        <Link to={'tel:+91 92055 44540'}>
-                                            <h7><b>+91 92055 44540</b></h7><br />
+                                        <Link to={'tel:+91 99538 56288'}>
+                                            <h7><b>+91 99538 56288</b></h7><br />
                                         </Link>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ function ContactUs() {
                                     <div className="info">
                                         <span>Walk In</span><br />
                                         <Link to={'#'}>
-                                        <h8><b>7th Floor, Office No. 74D, Himalaya House KG Marg Area, ND - 110001</b></h8>
+                                        <h8><b>D-2 Rohini Sector 11 New Delhi 110070</b></h8>
                                         </Link>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ function ContactUs() {
                                     <div className="info">
                                         <span>Write to Us</span><br />
                                         <Link to={'mailto:someone@example.com'}>
-                                            <h7><b>Office@ldrgroups.com</b></h7>
+                                            <h7><b>info@ssgca.com</b></h7>
                                         </Link>
                                     </div>
                                 </div>
